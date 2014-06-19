@@ -57,13 +57,15 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
 
             </div>
         </header>
-        <section class="banner">
-            <div class="inner">
-                 <jdoc:include type="modules" name="banner" style="none" />
-            </div>
-           
-           <!-- <img src="img/banner.jpg" alt="banner" />-->
-        </section>
+        <?php if ($this->countModules('banner')) : ?>
+            <section class="banner">
+                <div class="inner">
+                     <jdoc:include type="modules" name="banner" style="none" />
+                </div>
+               
+               <!-- <img src="img/banner.jpg" alt="banner" />-->
+            </section>
+         <?php endif; ?>
         <section class="main inner">
            
                 <jdoc:include type="component" />
