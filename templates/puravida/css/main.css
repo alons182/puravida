@@ -65,7 +65,7 @@ table{border-collapse:collapse;border-spacing:0}
 .icon-graduation:before{content:"\e60a"}
 .icon-book:before{content:"\e60b"}
 body{background:url("../img/bg.png") repeat #e9eddb;font-family:'Roboto Slab',serif;font-size:16px;line-height:25px}
-header{background:#f00;height:75px}
+header{background:#0168aa;height:75px}
 a{text-decoration:none}
 h1{color:#5e636d;font-size:1.5em}
 h2{font-size:1em}
