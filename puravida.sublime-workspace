@@ -676,6 +676,7 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/testgit/github.php",
 		"/C/xampp/htdocs/puravidateaching/puravida.sublime-project",
 		"/C/xampp/htdocs/puravidateaching/templates/puravida/stylus/main.styl",
 		"/D/Downloads/puravida/style.css",
@@ -802,8 +803,7 @@
 		"/C/xampp/htdocs/fashion/index.html",
 		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Javascript/script-jquery.sublime-snippet",
 		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Javascript/script-bootstrap.sublime-snippet",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/css/style-bootstrap.sublime-snippet",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Javascript/Backbone/model-extends.sublime-snippet"
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/css/style-bootstrap.sublime-snippet"
 	],
 	"find":
 	{
