@@ -1,0 +1,9 @@
+#
+#<?php die('Forbidden.'); ?>
+#Date: 2014-06-19 02:04:02 UTC
+#Software: Joomla Platform 13.1.0 Stable [ Curiosity ] 24-Apr-2013 00:00 GMT
+
+#Fields: datetime	priority	category	message
+2014-06-19T02:04:02+00:00	INFO	joomlafailure	Username and password do not match or you do not have an account yet.
+2014-06-19T02:04:08+00:00	INFO	joomlafailure	Username and password do not match or you do not have an account yet.
+2014-06-19T02:04:13+00:00	INFO	joomlafailure	Empty password not allowed

@@ -1,0 +1,1368 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"tab",
+				"tablename"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"whe",
+				"wheel"
+			],
+			[
+				"total",
+				"totalItems"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"ma",
+				"max_pages"
+			],
+			[
+				"si",
+				"siafun	anonymous-function"
+			],
+			[
+				"sear",
+				"searchText"
+			],
+			[
+				"item",
+				"items_per_page"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"on",
+				"on	.on()"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"se",
+				"selectedStatus"
+			],
+			[
+				"ca",
+				"categorySelected"
+			],
+			[
+				"re",
+				"ret0	return false"
+			],
+			[
+				"nar",
+				"naranja"
+			],
+			[
+				"co",
+				"count"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pro",
+				"product-price"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"relat",
+				"related-products"
+			],
+			[
+				"prodc",
+				"product"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"inp",
+				"input"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"pub",
+				"public"
+			],
+			[
+				"fi",
+				"find	.find()"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"cl",
+				"cl	console.log"
+			],
+			[
+				"col",
+				"colorfield"
+			],
+			[
+				"color",
+				"colorfield"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"inpi",
+				"inputsSizes"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"dele",
+				"delete"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"clo",
+				"closest	.closest()"
+			],
+			[
+				"cli",
+				"click	click"
+			],
+			[
+				"catego",
+				"CategoryRepository"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"cate",
+				"category_product"
+			],
+			[
+				"read",
+				"ready	document.ready - $(function()"
+			],
+			[
+				"r",
+				"ready	document.ready - $(function()"
+			],
+			[
+				"phto",
+				"photos"
+			],
+			[
+				"new",
+				"newphotos"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"ch",
+				"children	.children()"
+			],
+			[
+				"de",
+				"debugger"
+			],
+			[
+				"rend",
+				"renderImage"
+			],
+			[
+				"add",
+				"addClass	addClass"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"reu",
+				"return"
+			],
+			[
+				"c",
+				"class	class …"
+			],
+			[
+				"imag",
+				"imageUrl"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pre",
+				"prepend	.prepend"
+			],
+			[
+				"del",
+				"deletePhoto"
+			],
+			[
+				"P",
+				"Photo"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"categor",
+				"category"
+			],
+			[
+				"ale",
+				"alert-success"
+			],
+			[
+				"flas",
+				"flash_type"
+			],
+			[
+				"Se",
+				"Session-has	Session-has"
+			],
+			[
+				"INp",
+				"Input-get	Input-get"
+			],
+			[
+				"password",
+				"password_resets"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"Route",
+				"Route-get	Route-get"
+			],
+			[
+				"Redirect",
+				"Redirect-route	Redirect-route"
+			],
+			[
+				"clas",
+				"class	class …"
+			],
+			[
+				"class",
+				"class	class …"
+			],
+			[
+				"Ro",
+				"Route-group	Route-group"
+			],
+			[
+				"R",
+				"Route-get	Route-get"
+			],
+			[
+				"categ",
+				"Category"
+			],
+			[
+				"Categ",
+				"Category"
+			],
+			[
+				"Category",
+				"CategoryRepository"
+			],
+			[
+				"Valid",
+				"Validator"
+			],
+			[
+				"user",
+				"userRepository"
+			],
+			[
+				"User",
+				"UserRepository"
+			],
+			[
+				"log",
+				"loginForm"
+			],
+			[
+				"login",
+				"loginForm"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"mi",
+				"miclase"
+			],
+			[
+				"News",
+				"NewsletterList"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"Regis",
+				"RegistrarionForm"
+			],
+			[
+				"regi",
+				"registrationForm"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"bo",
+				"both"
+			],
+			[
+				"product",
+				"product-title-display"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"ve",
+				"vertical-align"
+			],
+			[
+				"ic",
+				"icon-users"
+			],
+			[
+				"s",
+				"span"
+			],
+			[
+				"res",
+				"resize	.resize"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"Blade",
+				"Blade-compile	Blade-compile"
+			],
+			[
+				"w",
+				"with"
+			],
+			[
+				"Ses",
+				"Session-get	Session-get"
+			],
+			[
+				"Ap",
+				"App-run	App-run"
+			],
+			[
+				"Rour",
+				"Route-filter	Route-filter"
+			],
+			[
+				"Reso",
+				"Response"
+			],
+			[
+				"eac",
+				"each	.each()"
+			],
+			[
+				"f",
+				"find	.find()"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"get",
+				"getjson	$.getjson()"
+			],
+			[
+				"Roue",
+				"Route-get	Route-get"
+			],
+			[
+				"View",
+				"View-make	View-make"
+			],
+			[
+				"COo",
+				"Cookie-forever	Cookie-forever"
+			],
+			[
+				"Co",
+				"Cookie-make	Cookie-make"
+			],
+			[
+				"Pag",
+				"Paginator-getCurrentUrl	Paginator-getCurrentUrl"
+			],
+			[
+				"Pa",
+				"Password-reset	Password-reset"
+			],
+			[
+				"pagi",
+				"parsekit_func_arginfo"
+			],
+			[
+				"pr",
+				"properties"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"fetc",
+				"Fetch: Manage"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"fetch	",
+				"Fetch: Package"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"snippe",
+				"Snippet: script-jquery"
+			],
+			[
+				"Snippet: scri",
+				"Snippet: script-jquery"
+			],
+			[
+				"html	",
+				"Set Syntax: HTML"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"conso",
+				"Package Control: Add Repository"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sideba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"synt:p",
+				"Set Syntax: PHP"
+			],
+			[
+				"syn",
+				"Set Syntax: R"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: com",
+				"Snippet: Block Comment"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"su",
+				"Snippet: URL-action"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: l",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: is",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/puravidateaching/puravida.sublime-project",
+		"/C/xampp/htdocs/puravidateaching/templates/puravida/stylus/main.styl",
+		"/D/Downloads/puravida/style.css",
+		"/C/xampp/htdocs/puravidateaching/templates/puravida/js/main.js",
+		"/C/xampp/htdocs/template-puravida/index.html",
+		"/C/xampp/htdocs/puravidateaching/templates/puravida/stylus/responsive.styl",
+		"/C/xampp/htdocs/puravidateaching/templates/puravida/index.php",
+		"/C/xampp/htdocs/puravidateaching/templates/puravida/stylus/icons.styl",
+		"/D/Proyectos/AVOTZ/pura vida/diseño nuevo/template-puravida/index.html",
+		"/D/Proyectos/AVOTZ/pura vida/diseño nuevo/template/index.php",
+		"/D/Proyectos/AVOTZ/pura vida/diseño nuevo/template/templateDetails.xml",
+		"/D/Proyectos/AVOTZ/pura vida/diseño nuevo/template/error.php",
+		"/C/xampp/htdocs/greenlife/templates/beez3/index.php",
+		"/C/xampp/htdocs/greenlife/templates/greenlife/index.php",
+		"/D/Proyectos/AVOTZ/pura vida/diseño nuevo/template/css/main.css",
+		"/C/xampp/htdocs/puravidateaching/.htaccess",
+		"/C/xampp/htdocs/puravidateaching/.htaccess.txt",
+		"/C/xampp/htdocs/fashionfactory/Gulpfile.js",
+		"/C/xampp/htdocs/fashionfactory/package.json",
+		"/C/xampp/htdocs/avotz/Gulpfile.js",
+		"/C/xampp/htdocs/puravida/language/templates/_body.php",
+		"/C/xampp/htdocs/puravida/language/templates/_head.php",
+		"/C/xampp/htdocs/puravida/language/templates/pages/spanish/ensenando_3Precios-Competitivos.php",
+		"/C/xampp/htdocs/puravida/language/templates/pages/spanish/ensenando_2Horario-de-Clases.php",
+		"/C/xampp/htdocs/puravida/language/templates/pages/spanish/ensenando_1Testimonios.php",
+		"/C/xampp/htdocs/puravida/language-espanol/index.php",
+		"/C/xampp/htdocs/puravida/language/index.php",
+		"/C/xampp/htdocs/puravida/language/markdown.php",
+		"/C/xampp/htdocs/puravida/language/templates/pages/about.php",
+		"/C/xampp/htdocs/puravida/language/templates/pages/contact.php",
+		"/C/xampp/htdocs/puravida/language/templates/pages/translating.php",
+		"/C/xampp/htdocs/fashionfactory/app/controllers/ProductsController.php",
+		"/C/xampp/htdocs/fashionfactory/app/controllers/Admin/ProductsController.php",
+		"/C/xampp/htdocs/fashionfactory/app/routes.php",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/D/Proyectos/hosts",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/get_posts.php",
+		"/C/xampp/htdocs/fashionfactory/app/database/seeds/CategoryTableSeeder.php",
+		"/C/xampp/htdocs/fashionfactory/app/database/seeds/CategoryProductTableSeeder.php",
+		"/C/xampp/htdocs/fashionfactory/app/database/seeds/DatabaseSeeder.php",
+		"/C/xampp/htdocs/fashionfactory/app/database/seeds/ProductTableSeeder.php",
+		"/C/xampp/htdocs/fashionfactory/composer.json",
+		"/C/xampp/htdocs/somosticos/index.php",
+		"/C/xampp/htdocs/fashionfactory/app/config/app.php",
+		"/C/xampp/htdocs/somosticos/composer.json",
+		"/C/xampp/htdocs/fashionfactory/public/js/main.js",
+		"/C/xampp/htdocs/fashionfactory/app/views/products/show.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/Fashion/Repos/Product/DbProductRepository.php",
+		"/C/xampp/htdocs/fashionfactory/public/stylus/main.styl",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/products/partials/_addRelatedProducts.blade.php",
+		"/C/xampp/htdocs/fashionfactory/public/js/admin.js",
+		"/C/xampp/htdocs/fashionfactory/public/js/vendor/jquery.contentcarousel.js",
+		"/C/xampp/htdocs/fashionfactory/app/views/products/index.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/Fashion/Repos/DbRepository.php",
+		"/C/Users/Alonso/Desktop/sublim/index.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/products/partials/_form.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/products/index.blade.php",
+		"/C/xampp/htdocs/contacts3.2/public/js/app/router.js",
+		"/C/xampp/htdocs/contacts3.2/public/js/app/views/contactList.js",
+		"/C/xampp/htdocs/contacts3.2/public/js/app/views/listSearchItemResults.js",
+		"/C/xampp/htdocs/contacts3.2/public/js/app/views/listSearchResults.js",
+		"/C/xampp/htdocs/contacts3.2/public/js/app/views/header.js",
+		"/C/xampp/htdocs/contacts3.2/public/js/app/views/pager.js",
+		"/C/xampp/htdocs/contacts3.2/public/js/app/collections/contactCollection.js",
+		"/C/xampp/htdocs/contacts3.2/public/js/app/models/contact.js",
+		"/C/xampp/htdocs/contacts3.2/public/tpl/HeaderView.html",
+		"/C/xampp/htdocs/contacts3.2/app/controllers/V1/ContactsController.php",
+		"/C/xampp/htdocs/contacts3.2/app/Acme/Repos/Contact/DbContactRepository.php",
+		"/C/xampp/htdocs/contacts3.2/app/Acme/Repos/Contact/ContactRepository.php",
+		"/C/xampp/htdocs/contacts3.2/app/Acme/Repos/DbRepository.php",
+		"/C/xampp/htdocs/fashionfactory/public/css/admin.css",
+		"/C/xampp/htdocs/fashionfactory/app/views/layouts/partials/_navbar.blade.php",
+		"/C/xampp/htdocs/fashionfactory/bootstrap/start.php",
+		"/C/xampp/htdocs/fashionfactory/public/.htaccess",
+		"/D/.htaccess",
+		"/C/xampp/htdocs/fashionfactory/app/models/Product.php",
+		"/C/xampp/htdocs/fashionfactory/.gitignore",
+		"/C/xampp/htdocs/fashionfactory/public/stylus/icons.styl",
+		"/C/xampp/htdocs/fashionfactory/app/Fashion/Repos/Product/ProductRepository.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/layouts/layout.blade.php",
+		"/D/Documents/dumps/fashion.sql",
+		"/C/xampp/htdocs/moodle/theme/clean/README.txt",
+		"/C/xampp/htdocs/moodle/theme/clean/layout/columns1.php",
+		"/C/xampp/htdocs/moodle/theme/clean/settings.php",
+		"/C/xampp/htdocs/moodle/theme/clean/style/custom.css",
+		"/D/Documents/dumps/moodle.sql",
+		"/C/xampp/htdocs/moodle/config.php",
+		"/C/xampp/moodledata/.htaccess",
+		"/C/xampp/htdocs/fashionfactory/fashion.sublime-project",
+		"/C/xampp/htdocs/fashionfactory/app/views/layouts/layout.blade.php",
+		"/C/xampp/htdocs/avotz/avotz.sublime-project",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/products/partials/_search.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/categories/partials/_search.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/dashboard/index.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/categories/index.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/categories/index.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/categories/edit.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/categories/partials/_form.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/products/edit.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/layouts/partials/_navbar.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/users/index.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/users/partials/_form.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/users/partials/_search.blade.php",
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/users/edit.blade.php",
+		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/index.php",
+		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/header.php",
+		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/style.styl",
+		"/C/xampp/htdocs/blogavotz/index.php",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/SideBarEnhancements/Default.sublime-keymap",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Alonso/Desktop/sublim/stylos.css",
+		"/C/Users/Alonso/Desktop/sublim/css/stylo.css",
+		"/C/xampp/htdocs/fashionfactory/stylos",
+		"/C/xampp/htdocs/fashionfactory/stilo.css",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Fetch.sublime-settings",
+		"/C/Users/Alonso/Desktop/index.php",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Javascript/anonymous-function.sublime-snippet",
+		"/C/xampp/htdocs/avotz/index.html",
+		"/C/xampp/htdocs/fashion/index.html",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Javascript/script-jquery.sublime-snippet",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Javascript/script-bootstrap.sublime-snippet",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/css/style-bootstrap.sublime-snippet",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Javascript/Backbone/model-extends.sublime-snippet"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"View all",
+			"foo",
+			"Document",
+			"1.11.0",
+			"productRepository",
+			"ProductRepository",
+			"productRepository",
+			"ProductRepository",
+			"productRepository",
+			"ProductRepository",
+			"$productRepository",
+			"productRepository",
+			"ProductRepository",
+			"productRepository",
+			"http://www.avotz.com/blog/helpers/get_posts.php",
+			"unlicense",
+			"browser",
+			"msie",
+			"../images/",
+			"isotope",
+			"cycle",
+			".",
+			"foo",
+			"$foo = null",
+			"categories",
+			"category",
+			"categories",
+			"property",
+			"$user",
+			"property",
+			"user",
+			"label",
+			"exceptions",
+			"subscribe",
+			"SubscribeTo",
+			"subscribeto",
+			"subscri",
+			"curl",
+			"Username",
+			"username",
+			"Username",
+			"username",
+			"Username",
+			"username",
+			"view",
+			"$foo",
+			"$foo = null",
+			"$querySearch",
+			"furniture",
+			"type",
+			"dropdown",
+			"items",
+			"article",
+			"li",
+			".service",
+			"service",
+			"rojo",
+			"celeste",
+			".col",
+			"file_info",
+			"warnin",
+			"bootstrap",
+			"backgrid",
+			"bootstrap",
+			"<%=",
+			"%>",
+			"<%=",
+			"jquery",
+			"backbone",
+			"pageslider",
+			"posted",
+			"$.map",
+			"right",
+			"add",
+			"has",
+			"width",
+			"require",
+			"requirejs",
+			"handlebars",
+			"cycle2",
+			"shadowbox",
+			"inview",
+			"list-unstyled",
+			"overflow-scroll",
+			"Fix validation errors and try again",
+			"RewriteCond",
+			"output",
+			"control-label",
+			"control-group",
+			"main_imagen",
+			"email_address",
+			"propiedades",
+			"relative",
+			"Twitter",
+			"queryTwitter",
+			"lenght",
+			"Contact",
+			"}}",
+			"{{",
+			"Contact",
+			"jpg",
+			"$message",
+			"hentry",
+			"form-allowed-tags",
+			".border-",
+			"#logo",
+			"shape",
+			"Shape",
+			"shape",
+			"Niños",
+			"niños",
+			"123",
+			"loader",
+			"templates/verbodivino/images/banner/",
+			"description",
+			"main",
+			"cycle",
+			".log",
+			"log",
+			"interval",
+			"btn_print",
+			"lightbox",
+			"items",
+			"control-group"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../img/colorpicker/",
+			"products",
+			"product",
+			"products",
+			"$category",
+			"user",
+			"$search",
+			"verde",
+			"{{",
+			"}}",
+			"{{",
+			"label label-default",
+			"form-group",
+			"imagen",
+			"email",
+			"contacts",
+			"Youtube",
+			"queryYoutube",
+			"Property",
+			" %>",
+			"<%=",
+			"Property",
+			"png",
+			"$body",
+			"avotz",
+			"images/banners/",
+			"shadowbox",
+			"form-group"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"templates/puravida/s",
+				"templates/puravida/stylus/icons.styl"
+			],
+			[
+				"puravindex",
+				"templates/puravida/index.php"
+			],
+			[
+				"resposive",
+				"templates/puravida/stylus/responsive.styl"
+			],
+			[
+				"main.js",
+				"templates/puravida/js/main.js"
+			],
+			[
+				"main.st",
+				"templates/puravida/stylus/main.styl"
+			],
+			[
+				"gul",
+				"Gulpfile.js"
+			],
+			[
+				"route",
+				"app/routes.php"
+			],
+			[
+				"pro",
+				"app/controllers/Admin/ProductsController.php"
+			],
+			[
+				"seed",
+				"app/database/seeds/DatabaseSeeder.php"
+			],
+			[
+				"categoryse",
+				"app/database/seeds/CategoryTableSeeder.php"
+			],
+			[
+				"comp",
+				"composer.json"
+			],
+			[
+				"app",
+				"app/config/app.php"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"gulp",
+				"Gulpfile.js"
+			],
+			[
+				"main.sty",
+				"public/stylus/main.styl"
+			],
+			[
+				"dbprod",
+				"app/Fashion/Repos/Product/DbProductRepository.php"
+			],
+			[
+				"productco",
+				"app/controllers/ProductsController.php"
+			],
+			[
+				"productsshow",
+				"app/views/products/show.blade.php"
+			],
+			[
+				"productcontro",
+				"app/controllers/ProductsController.php"
+			],
+			[
+				"dbrepo",
+				"app/Fashion/Repos/DbRepository.php"
+			],
+			[
+				"productindex",
+				"app/views/products/index.blade.php"
+			],
+			[
+				"mainjs",
+				"public/js/main.js"
+			],
+			[
+				"carouse",
+				"public/js/vendor/jquery.contentcarousel.js"
+			],
+			[
+				"admin.js",
+				"public/js/admin.js"
+			],
+			[
+				"dbpro",
+				"app/Fashion/Repos/Product/DbProductRepository.php"
+			],
+			[
+				"addpro",
+				"app/views/admin/products/partials/_addRelatedProducts.blade.php"
+			],
+			[
+				"admin.css",
+				"public/css/admin.css"
+			],
+			[
+				"produccont",
+				"app/controllers/Admin/ProductsController.php"
+			],
+			[
+				"_relate",
+				"app/views/admin/products/partials/_addRelatedProducts.blade.php"
+			],
+			[
+				"product_for",
+				"app/views/admin/products/partials/_form.blade.php"
+			],
+			[
+				"carousel",
+				"public/js/vendor/jquery.contentcarousel.js"
+			],
+			[
+				".ht",
+				"public/.htaccess"
+			],
+			[
+				"sta",
+				"bootstrap/start.php"
+			],
+			[
+				"navba",
+				"app/views/layouts/partials/_navbar.blade.php"
+			],
+			[
+				"start",
+				"bootstrap/start.php"
+			],
+			[
+				"productre",
+				"app/Fashion/Repos/Product/DbProductRepository.php"
+			],
+			[
+				"produ",
+				"app/controllers/Admin/ProductsController.php"
+			],
+			[
+				"show",
+				"app/views/products/show.blade.php"
+			],
+			[
+				"product_form",
+				"app/views/admin/products/partials/_form.blade.php"
+			],
+			[
+				"star",
+				"bootstrap/start.php"
+			],
+			[
+				"admin/l",
+				"app/views/admin/layouts/layout.blade.php"
+			],
+			[
+				"layou",
+				"app/views/layouts/layout.blade.php"
+			],
+			[
+				"productsform",
+				"fashionfactory/app/views/admin/products/partials/_form.blade.php"
+			],
+			[
+				"productsinde",
+				"fashionfactory/app/views/admin/products/index.blade.php"
+			],
+			[
+				"routes",
+				"fashionfactory/app/routes.php"
+			],
+			[
+				"productsconto",
+				"fashionfactory/app/controllers/ProductsController.php"
+			],
+			[
+				"dashboa",
+				"fashionfactory/app/views/admin/dashboard/index.blade.php"
+			],
+			[
+				"categoriessea",
+				"fashionfactory/app/views/admin/categories/partials/_search.blade.php"
+			],
+			[
+				"productsea",
+				"fashionfactory/app/views/admin/products/partials/_search.blade.php"
+			],
+			[
+				"dasboar",
+				"fashionfactory/app/views/admin/dashboard/index.blade.php"
+			],
+			[
+				"productsedi",
+				"fashionfactory/app/views/admin/products/edit.blade.php"
+			],
+			[
+				"productsadd",
+				"fashionfactory/app/views/admin/products/partials/_addRelatedProducts.blade.php"
+			],
+			[
+				"productssera",
+				"fashionfactory/app/views/admin/products/partials/_search.blade.php"
+			],
+			[
+				"productsin",
+				"fashionfactory/app/views/products/index.blade.php"
+			],
+			[
+				"categoriesform",
+				"fashionfactory/app/views/admin/categories/partials/_form.blade.php"
+			],
+			[
+				"categoriesedit",
+				"fashionfactory/app/views/admin/categories/edit.blade.php"
+			],
+			[
+				"categoriessera",
+				"fashionfactory/app/views/admin/categories/partials/_search.blade.php"
+			],
+			[
+				"categoriesind",
+				"fashionfactory/app/views/admin/categories/index.blade.php"
+			],
+			[
+				"categoresinde",
+				"fashionfactory/app/views/categories/index.blade.php"
+			],
+			[
+				"usersedi",
+				"fashionfactory/app/views/admin/users/edit.blade.php"
+			],
+			[
+				"userssear",
+				"fashionfactory/app/views/admin/users/partials/_search.blade.php"
+			],
+			[
+				"userspartia",
+				"fashionfactory/app/views/admin/users/partials/_form.blade.php"
+			],
+			[
+				"usersin",
+				"fashionfactory/app/views/admin/users/index.blade.php"
+			],
+			[
+				"layout",
+				"fashionfactory/app/views/admin/layouts/layout.blade.php"
+			],
+			[
+				"nav",
+				"fashionfactory/app/views/layouts/partials/_navbar.blade.php"
+			],
+			[
+				"admin.d",
+				"fashionfactory/app/views/admin/dashboard/index.blade.php"
+			],
+			[
+				"index",
+				"blogavotz/index.php"
+			],
+			[
+				"styl",
+				"blogavotz/wp-content/themes/avotz/style.styl"
+			],
+			[
+				"layoue",
+				"app/views/admin/layouts/layout.blade.php"
+			],
+			[
+				"contro",
+				"app/controllers/PagesController.php"
+			],
+			[
+				"produccon",
+				"app/controllers/Admin/ProductsController.php"
+			],
+			[
+				"",
+				".gitignore"
+			],
+			[
+				"prod",
+				"app/controllers/Admin/ProductsController.php"
+			],
+			[
+				"viewhom",
+				"app/views/pages/home.blade.php"
+			],
+			[
+				"viewshome",
+				"app/views/pages/home.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/xampp/htdocs/avotz/avotz.sublime-project"
+			],
+			[
+				"av",
+				"/C/xampp/htdocs/avotz/avotz.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 351.0,
+	"status_bar_visible": true
+}

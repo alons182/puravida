@@ -1,0 +1,280 @@
+
+@import "nib"
+@import "normalize.styl"
+@import "icons.styl"
+
+azul = #0168AA
+azul_oscuro = #004977
+rojo = #F1705A
+celeste = #00ADEE
+celeste2 = #90D6F1
+verde = #CED786
+gris = #5E636D
+claro = #E9EDDB
+
+body
+	background url('../img/bg.png') repeat claro
+	font-family 'Roboto Slab', serif
+	font-size 16px
+	line-height 25px
+	
+header 
+	background azul
+	height 75px
+a 
+	text-decoration	none
+h1 
+	color gris
+	font-size 1.5em
+h2 
+	font-size 1em
+
+.inner
+	margin 0 auto
+	max-width 1000px
+
+.header-top
+	background azul_oscuro
+	height 33px
+.languajes
+	float left
+	margin-left 10px
+	a
+		display inline-block
+		color claro
+		text-transform uppercase
+		font-size 12px
+		margin-right .5em
+		padding-right .8em
+		border-right 1px solid gris
+		&:hover
+			color celeste
+		&:nth-child(4)
+			border-right none
+.btn-login
+	background claro
+	color #000
+	float right
+	font-size .9em
+	padding .3em
+	margin-top -25px
+
+.logo 
+	float left
+	width 275px
+	img 
+		width 100%
+.menu
+	display none
+	//float right
+	margin-top 4.5em//1em
+	position absolute
+	left 0
+	right 0
+	z-index 2
+
+	ul
+		margin 0
+		padding 0
+		background azul_oscuro
+
+	li
+		display block//inline-block
+		vertical-align top
+		text-align center
+
+	a 
+		color #FFF
+		display block 
+		padding .5em
+
+		&:hover
+			color verde
+
+
+.banner
+	background-image url('../img/banner.jpg') 
+	background-position center  center
+	background-repeat no-repeat
+	background-size cover, cover
+	height 450px
+	position relative
+	
+	img
+		width 100%
+	.splash
+		//width 600px
+		position absolute
+		bottom 4em
+		color #FFF
+		padding .5em
+		
+	h1
+		text-transform uppercase
+		color #FFF
+
+
+.btn
+	 border-radius 5px
+	 box-shadow 1px 1px 2px rgba(0,0,0,.5)
+	 padding .5em 1em
+	 color #FFF
+
+.btn-red
+	background rojo	
+	&:hover
+		background #E5705A
+		
+
+.main 
+	background #FFF
+	padding .5em 1em
+	border-radius 5px
+	box-shadow 0px 0px 8px rgba(0,0,0,.5)
+	margin-top 4em
+	color gris
+	
+
+.subtitle
+	color celeste
+	font-size 1rem
+	display block
+	margin .5em 0
+
+.services
+	text-align center
+	margin-top 4em
+	padding-bottom 2em
+	border-bottom 1px solid rgba(94,99,109,.5)
+.service
+	
+	display inline-block
+	width 300px
+	margin .5em
+
+	h2 
+		color celeste
+		margin-top 2em	
+	p
+		text-align left
+
+	.icon 
+		padding .5em
+		font-size 4em
+		border-radius 50%
+		color #FFF
+.files
+	text-align center
+	padding-bottom 2em
+	border-bottom 1px solid rgba(94,99,109,.5)
+.category-file
+	width 200px
+	display inline-block
+	margin .5em
+	box-shadow 0px 0px 8px rgba(0,0,0,.5)
+	padding .5em
+	
+	.imagen
+		background claro
+		padding .5em
+	.icon
+		font-size 4em
+	h3 
+		margin 0
+	p 
+		text-align left
+	.read-more 
+		text-align left
+		color rojo
+		display block
+		&:hover 
+			color celeste2
+.section-video
+	clearfix()
+	padding-bottom 2em
+	
+	.video
+	.info
+		display inline-block
+	.video 
+		margin-top 1em
+		margin-right 1.5em
+		img
+			width 100%
+	.info 
+		width auto//50%
+		
+footer
+	background gris
+	margin-top 2em
+	.column
+		display inline-block
+		color #C2B49B
+		vertical-align top
+		margin 1em
+	.column-links
+		display none
+	h3 
+		color #FFF
+.column-contact
+	width auto
+.column-logo 
+	a 
+		margin-top 2em
+		display block
+	img 
+		width 100%
+.redes 
+	a 
+		color gris
+		display inline-block
+		background #C2B49B
+		border-radius 50%
+		padding .4em
+		i 
+			display block
+
+
+.menu-footer
+	display none
+	ul 
+		margin 0
+		padding 0
+	li 
+		line-height 1.5em
+		display block 
+	a 
+		color #C2B49B
+		padding 0
+	.item-109
+		display none
+
+.tear 
+	background url('../img/footer_tear.png') repeat-x 
+	height 10px
+	display block
+	position relative
+	top -10px
+
+.bg-red
+	background rojo
+
+.bg-celeste
+	background celeste2
+
+.bg-green
+	background verde	
+
+#btn_nav
+	position absolute
+	color #FFF
+	right 1em
+	top 1.6em
+	cursor pointer
+	font-size 2em
+	&:hover 
+		color verde
+
+
+@import "responsive.styl"	
+
