@@ -374,8 +374,100 @@ fieldset
 .nav-stacked
 	list-style none
 	margin 0 
-	padding 0 
+	padding 0
 
+
+.alert 
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 18px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #FCF8E3;
+	border: 1px solid #FBEED5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	.close
+		cursor pointer
+
+.alert-danger
+.alert-error
+	background-color rojo
+	border-color #EED3D7
+	color #FFF
+
+.tooltip 
+	position absolute
+	z-index 1030
+	display block
+	visibility visible
+	font-size 11px
+	line-height 1.4
+	opacity 0
+	
+
+	&.in 
+		opacity 0.8
+	
+
+	&.top 
+		margin-top -3px
+		padding 5px 0
+
+		.tooltip-arrow 
+			bottom 0
+			left 50%
+			margin-left -5px
+			border-width 5px 5px 0
+			border-top-color #000
+
+	&.right 
+		margin-left 3px
+		padding 0 5px
+
+		.tooltip-arrow 
+			top 50%
+			left 0
+			margin-top -5px
+			border-width 5px 5px 5px 0
+			border-right-color #000
+
+	&.bottom 
+		margin-top 3px
+		padding 5px 0
+
+		.tooltip-arrow 
+			top 0
+			left 50%
+			margin-left -5px
+			border-width 0 5px 5px
+			border-bottom-color #000
+
+	&.left 
+		margin-left -3px
+		padding 0 5px
+
+		.tooltip-arrow 
+			top 50%
+			right 0
+			margin-top -5px
+			border-width 5px 0 5px 5px
+			border-left-color #000
+
+.tooltip-inner 
+	max-width 200px
+	padding 8px
+	color #fff
+	text-align center
+	text-decoration none
+	background-color #000
+	border-radius 4px
+
+.tooltip-arrow 
+	position absolute
+	width 0
+	height 0
+	border-color transparent
+	border-style solid
 
 #btn_nav
 	position absolute

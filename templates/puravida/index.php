@@ -77,7 +77,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
             </section>
          <?php endif; ?>
         <section class="main inner">
-           
+                <jdoc:include type="message" />
                 <jdoc:include type="component" />
                
                 <?php if ($this->countModules('files')) : ?>
