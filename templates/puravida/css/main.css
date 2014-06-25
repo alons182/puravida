@@ -74,7 +74,7 @@ h1{color:#5e636d;font-size:1.5em;text-transform:uppercase}
 h2{font-size:1em;color:#00adee;text-transform:uppercase}
 button,input[type="submit"]{color:#fff;border:none;margin:0;padding:0;cursor:pointer}
 label{cursor:pointer;display:inline-block;margin-bottom:5px}
-input[type="text"],input[type="password"]{position:relative;margin-bottom:0;vertical-align:top;-webkit-border-radius:3px;border-radius:3px;background-color:#fff;border:1px solid #ccc;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);display:inline-block;height:18px;padding:4px 6px;line-height:18px;color:#555}
+input[type="text"],input[type="email"],input[type="password"]{position:relative;margin-bottom:0;vertical-align:top;-webkit-border-radius:3px;border-radius:3px;background-color:#fff;border:1px solid #ccc;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);display:inline-block;height:18px;padding:4px 6px;line-height:18px;color:#555}
 input[type="checkbox"]{display:inline-block;margin:4px 0 0}
 .inner{margin:0 auto;max-width:1000px}
 .header-top{background:#004977;height:33px}
@@ -100,7 +100,7 @@ input[type="checkbox"]{display:inline-block;margin:4px 0 0}
 .header-section{margin-top:3em;}
 .header-section h1{text-transform:uppercase}
 .header-section .icon{background:#f1705a;padding:.5em;color:rgba(255,255,255,0.8);font-size:1.5em;-webkit-border-radius:50%;border-radius:50%}
-.btn{-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.5);box-shadow:1px 1px 2px rgba(0,0,0,0.5);padding:.5em 1em;color:#fff}
+.btn{-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.5);box-shadow:1px 1px 2px rgba(0,0,0,0.5);padding:.5em 1em;color:#fff;background:#5e636d}
 .btn-red,.btn-primary{background:#f1705a;}
 .btn-red:hover,.btn-primary:hover{background:#e5705a;color:#fff}
 .main{background:#fff;padding:.5em 1em;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 8px rgba(0,0,0,0.5);box-shadow:0 0 8px rgba(0,0,0,0.5);margin-top:4em;color:#5e636d}
@@ -151,8 +151,10 @@ footer h3{color:#fff}
 .control-group{margin-bottom:9px}
 .form-horizontal .controls{margin-left:180px}
 .form-horizontal .control-label{float:left;width:160px;padding-top:5px;text-align:right}
-.form-horizontal .control-group{margin-bottom:18px}
-.well{background:#e9eddb;padding:1em;margin-bottom:1em}
+.form-horizontal .control-group{margin-bottom:18px;}
+.form-horizontal .control-group:after{display:table;content:"";line-height:0;clear:both}
+.form-horizontal legend + .control-group{margin-top:18px;-webkit-margin-top-collapse:separate}
+fieldset,.well{background:#e9eddb;padding:1em;margin-bottom:1em}
 .nav-stacked{list-style:none;margin:0;padding:0}
 #btn_nav{position:absolute;color:#fff;right:1em;top:1.6em;cursor:pointer;font-size:2em;}
 #btn_nav:hover{color:#ced786}
