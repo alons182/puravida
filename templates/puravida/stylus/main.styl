@@ -23,6 +23,9 @@ header
 	height 75px
 a 
 	text-decoration	none
+	color rojo
+	&:hover
+		color celeste2
 h1 
 	color gris
 	font-size 1.5em
@@ -31,6 +34,36 @@ h2
 	font-size 1em
 	color celeste
 	text-transform uppercase
+button
+input[type="submit"]
+	color #fff
+	border none
+	margin 0
+	padding 0
+	cursor pointer
+
+label 
+	cursor pointer
+	display inline-block
+	margin-bottom 5px
+input[type="text"],
+input[type="password"]
+	position: relative;
+	margin-bottom: 0;
+	vertical-align: top;
+	border-radius 3px
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	display: inline-block;
+	height: 18px;
+	padding: 4px 6px;
+	line-height: 18px;
+	color: #555;
+
+input[type="checkbox"]
+	display inline-block
+	margin 4px 0 0
 
 .inner
 	margin 0 auto
@@ -61,6 +94,8 @@ h2
 	font-size .9em
 	padding .3em
 	margin-top -25px
+	&:hover
+		color #000
 
 .moduletable-login-register
 	position relative
@@ -89,6 +124,10 @@ h2
 		vertical-align top
 		text-align center
 
+		&:last-child
+			a 
+				color #FFF
+
 	a 
 		color #FFF
 		display block 
@@ -96,7 +135,6 @@ h2
 
 		&:hover
 			color verde
-
 
 .banner
 	background-image url('../img/banner.jpg') 
@@ -135,10 +173,13 @@ h2
 	 padding .5em 1em
 	 color #FFF
 
+
 .btn-red
-	background rojo	
+.btn-primary
+	background rojo
 	&:hover
 		background #E5705A
+		color #FFF
 		
 
 .main 
@@ -199,11 +240,9 @@ h2
 	p 
 		text-align left
 	.read-more 
-		text-align left
-		color rojo
+		text-align left	
 		display block
-		&:hover 
-			color celeste2
+		
 .section-video
 	clearfix()
 	padding-bottom 2em
@@ -292,7 +331,37 @@ footer
 	background celeste2
 
 .bg-green
-	background verde	
+	background verde
+.element-invisible
+	display none	
+.unstyled
+	list-style none
+	margin 0
+	padding 0
+
+.control-group
+	margin-bottom 9px
+
+
+.form-horizontal
+	.controls
+		margin-left 180px
+	.control-label 
+		float left
+		width 160px
+		padding-top 5px
+		text-align right
+	.control-group 
+		margin-bottom 18px
+.well
+	background claro
+	padding 1em
+	margin-bottom 1em
+.nav-stacked
+	list-style none
+	margin 0 
+	padding 0 
+
 
 #btn_nav
 	position absolute
@@ -310,9 +379,47 @@ footer
 	top 10px
 	right 0
 	background #FFF
-	padding .5em
+	padding 1em
 	z-index 2
 	box-shadow 0px 0px 8px rgba(0,0,0,.5)
+
+	.input-prepend
+		.btn
+			margin-right -1px
+			&:first-child
+				border-radius 3px 0 0 3px
+		.add-on
+			vertical-align: top;
+			margin-right -5px
+			display: inline-block;
+			width: auto;
+			height: 18px;
+			min-width: 16px;
+			padding: 4px 5px;
+			font-size: 13px;
+			font-weight: normal;
+			line-height: 18px;
+			text-align: center;
+			text-shadow: 0 1px 0 #FFF;
+			background-color: #EEE;
+			border: 1px solid #CCC;
+
+			&:first-child
+				border-radius 3px 0 0 3px
+	input[type="text"],
+	input[type="password"]
+		border-radius 0 3px 3px 0
+
+	input[type="checkbox"]
+		float left
+		display inline-block
+		margin 4px 3px 0 0
+
+	a 
+		font-size 14px
+		
+
+	
 
 
 @import "responsive.styl"	
