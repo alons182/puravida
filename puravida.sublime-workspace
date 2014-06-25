@@ -676,6 +676,11 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/puravida/templates/puravida/stylus/main.styl",
+		"/C/xampp/htdocs/puravida/templates/puravida/templateDetails.xml",
+		"/C/xampp/htdocs/puravida/templates/puravida/index.php",
+		"/C/xampp/htdocs/puravida/templates/beez3/index.php",
+		"/D/Proyectos/AVOTZ/pura vida/diseño nuevo/template/templateDetails.xml",
 		"/C/xampp/htdocs/testgit/github.php",
 		"/C/xampp/htdocs/puravidateaching/puravida.sublime-project",
 		"/C/xampp/htdocs/puravidateaching/templates/puravida/stylus/main.styl",
@@ -687,7 +692,6 @@
 		"/C/xampp/htdocs/puravidateaching/templates/puravida/stylus/icons.styl",
 		"/D/Proyectos/AVOTZ/pura vida/diseño nuevo/template-puravida/index.html",
 		"/D/Proyectos/AVOTZ/pura vida/diseño nuevo/template/index.php",
-		"/D/Proyectos/AVOTZ/pura vida/diseño nuevo/template/templateDetails.xml",
 		"/D/Proyectos/AVOTZ/pura vida/diseño nuevo/template/error.php",
 		"/C/xampp/htdocs/greenlife/templates/beez3/index.php",
 		"/C/xampp/htdocs/greenlife/templates/greenlife/index.php",
@@ -799,11 +803,7 @@
 		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Fetch.sublime-settings",
 		"/C/Users/Alonso/Desktop/index.php",
 		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Javascript/anonymous-function.sublime-snippet",
-		"/C/xampp/htdocs/avotz/index.html",
-		"/C/xampp/htdocs/fashion/index.html",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Javascript/script-jquery.sublime-snippet",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Javascript/script-bootstrap.sublime-snippet",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/css/style-bootstrap.sublime-snippet"
+		"/C/xampp/htdocs/avotz/index.html"
 	],
 	"find":
 	{
@@ -1041,6 +1041,18 @@
 		"selected_items":
 		[
 			[
+				"templatepuravidain",
+				"templates/puravida/index.php"
+			],
+			[
+				"beezindex",
+				"templates/beez3/index.php"
+			],
+			[
+				"main.st",
+				"templates/puravida/stylus/main.styl"
+			],
+			[
 				"templates/puravida/s",
 				"templates/puravida/stylus/icons.styl"
 			],
@@ -1055,10 +1067,6 @@
 			[
 				"main.js",
 				"templates/puravida/js/main.js"
-			],
-			[
-				"main.st",
-				"templates/puravida/stylus/main.styl"
 			],
 			[
 				"gul",
@@ -1362,7 +1370,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 351.0,
 	"status_bar_visible": true
 }
