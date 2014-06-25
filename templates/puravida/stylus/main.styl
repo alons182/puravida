@@ -26,8 +26,11 @@ a
 h1 
 	color gris
 	font-size 1.5em
+	text-transform uppercase
 h2 
 	font-size 1em
+	color celeste
+	text-transform uppercase
 
 .inner
 	margin 0 auto
@@ -58,6 +61,9 @@ h2
 	font-size .9em
 	padding .3em
 	margin-top -25px
+
+.moduletable-login-register
+	position relative
 
 .logo 
 	float left
@@ -112,7 +118,16 @@ h2
 	h1
 		text-transform uppercase
 		color #FFF
-
+.header-section
+	margin-top 3em
+	h1
+		text-transform uppercase
+	.icon 
+		background rojo
+		padding .5em 
+		color rgba(255,255,255,.8)
+		font-size 1.5em
+		border-radius 50%
 
 .btn
 	 border-radius 5px
@@ -256,6 +271,20 @@ footer
 	position relative
 	top -10px
 
+.streaming
+	text-align center
+	padding-bottom 2em
+	border-bottom 1px solid rgba(94,99,109,.5)
+	iframe
+		display inline-block
+		vertical-align top
+.stream-player
+	width 100%
+	
+.stream-chat
+	width 100%
+	
+
 .bg-red
 	background rojo
 
@@ -274,6 +303,16 @@ footer
 	font-size 2em
 	&:hover 
 		color verde
+
+#login-form
+	display none
+	position absolute
+	top 10px
+	right 0
+	background #FFF
+	padding .5em
+	z-index 2
+	box-shadow 0px 0px 8px rgba(0,0,0,.5)
 
 
 @import "responsive.styl"	

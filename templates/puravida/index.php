@@ -43,7 +43,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
         <div class="header-top">
             <div class="inner">
                 <jdoc:include type="modules" name="languajes" style="none" />
-                <jdoc:include type="modules" name="btn-login" style="none" />
+                <jdoc:include type="modules" name="btn-login" style="xhtml" />
             </div>  
         </div>
         <header>
@@ -57,6 +57,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
 
             </div>
         </header>
+        
         <?php if ($this->countModules('banner')) : ?>
             <section class="banner">
                 <div class="inner">
@@ -64,6 +65,15 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                 </div>
                
                <!-- <img src="img/banner.jpg" alt="banner" />-->
+            </section>
+         <?php endif; ?>
+         <?php if ($this->countModules('header-section')) : ?>
+            <section class="header-section">
+                <div class="inner">
+                     <jdoc:include type="modules" name="header-section" style="none" />
+                </div>
+               
+               
             </section>
          <?php endif; ?>
         <section class="main inner">
@@ -104,8 +114,8 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                 </div>
             </div>
         </footer>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+       <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>-->
 
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/main.js"></script>
 
