@@ -29,9 +29,11 @@ a
 h1 
 	color gris
 	font-size 1.5em
+	font-weight 400
 	text-transform uppercase
 h2 
 	font-size 1em
+	font-weight 400
 	color celeste
 	text-transform uppercase
 button
@@ -125,6 +127,10 @@ input[type="checkbox"]
 		vertical-align top
 		text-align center
 
+		&.active
+			a 
+				color verde
+		
 		&:last-child
 			a 
 				color #FFF
@@ -157,6 +163,7 @@ input[type="checkbox"]
 	h1
 		text-transform uppercase
 		color #FFF
+		font-weight 700
 .header-section
 	margin-top 3em
 	h1
@@ -178,6 +185,7 @@ input[type="checkbox"]
 
 .btn-red
 .btn-primary
+.btn-success
 	background rojo
 	&:hover
 		background #E5705A
@@ -212,7 +220,8 @@ input[type="checkbox"]
 
 	h2 
 		color celeste
-		margin-top 2em	
+		margin-top 2em
+		text-transform none	
 	p
 		text-align left
 
@@ -368,7 +377,7 @@ footer
 
 fieldset
 .well
-	background claro
+	//background claro
 	padding 1em
 	margin-bottom 1em
 .nav-stacked
@@ -394,6 +403,10 @@ fieldset
 	background-color rojo
 	border-color #EED3D7
 	color #FFF
+
+.alert-info
+	background celeste
+	color #FFF 
 
 .tooltip 
 	position absolute
@@ -469,6 +482,8 @@ fieldset
 	border-color transparent
 	border-style solid
 
+
+
 #btn_nav
 	position absolute
 	color #FFF
@@ -524,6 +539,44 @@ fieldset
 	a 
 		font-size 14px
 		
+div#b2jcontainer_c108
+	&.b2jcontainer
+		font-weight normal
+		border none
+		background #FFF
+
+
+		h2 
+			background none
+			text-transform uppercase
+			color gris
+			font-size 2em
+			font-weight 400 
+	.btn 
+		background rojo
+	.b2j_form 
+		input[type="text"],
+		input[type="email"],
+		textarea
+			border-radius 3px
+	.alert-error
+		background-color rojo
+		border-color #EED3D7
+		color #FFF
+	.alert-info
+		background celeste
+		color #FFF 
+
+	.required
+	.asterisk
+		color rojo
+	.control-group
+		&.error
+			> label
+				color rojo
+			input 
+				color rojo
+				border-color rojo
 
 	
 
