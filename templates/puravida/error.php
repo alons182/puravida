@@ -34,15 +34,16 @@ $itemid   = $app->input->getCmd('Itemid', '');
                 $moduleLang = JModuleHelper::getModule('mod_custom','Languajes');
                 echo $renderer->render($moduleLang);
 
-                $moduleLogin = JModuleHelper::getModule('mod_custom','Login');
+               /* $moduleLogin = JModuleHelper::getModule('mod_custom','Login Btn');
                 echo $renderer->render($moduleLogin);
 
-                $moduleFormLogin = JModuleHelper::getModule('mod_custom','Login-Form');
-                echo $renderer->render($moduleFormLogin);
+                $moduleFormLogin = JModuleHelper::getModule('Login','Login');
+                echo $renderer->render($moduleFormLogin);*/
+
+
                    
              ?>
-                <jdoc:include type="modules" name="languajes" style="none" />
-                <jdoc:include type="modules" name="btn-login" style="xhtml" />
+             
             </div>  
         </div>
         <header>
