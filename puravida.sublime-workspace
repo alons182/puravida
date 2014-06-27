@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"borde",
+				"border-color"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"ce",
+				"celeste"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"ver",
+				"verde"
+			],
+			[
 				"ma",
 				"margin-left"
 			],
@@ -12,16 +32,8 @@
 				"margin-bottom"
 			],
 			[
-				"ce",
-				"celeste2"
-			],
-			[
 				"r",
 				"rojo"
-			],
-			[
-				"ver",
-				"vertical-align"
 			],
 			[
 				"po",
@@ -78,10 +90,6 @@
 			[
 				"item",
 				"items_per_page"
-			],
-			[
-				"fo",
-				"font-size"
 			],
 			[
 				"on",
@@ -372,10 +380,6 @@
 				"loginForm"
 			],
 			[
-				"in",
-				"inline-block"
-			],
-			[
 				"bord",
 				"border-radius"
 			],
@@ -510,69 +514,25 @@
 			[
 				"Pag",
 				"Paginator-getCurrentUrl	Paginator-getCurrentUrl"
-			],
-			[
-				"Pa",
-				"Password-reset	Password-reset"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "templates/puravida/js/main.js",
-			"settings":
-			{
-				"buffer_size": 366,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/puravida/stylus/responsive.styl",
-			"settings":
-			{
-				"buffer_size": 835,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/puravida/stylus/icons.styl",
-			"settings":
-			{
-				"buffer_size": 1298,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Downloads/puravida (1)/style.css",
-			"settings":
-			{
-				"buffer_size": 1283,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/protostar/index.php",
-			"settings":
-			{
-				"buffer_size": 6574,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 86.0,
 		"selected_items":
 		[
 			[
-				"css",
-				"Set Syntax: CSS"
-			],
-			[
 				"instal",
 				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
 			],
 			[
 				"install",
@@ -703,7 +663,11 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
 	},
 	"distraction_free":
 	{
@@ -716,10 +680,32 @@
 	},
 	"file_history":
 	[
+		"/D/Instaladores/Sublime Text Build 3059 x64/Data/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/xampp/htdocs/puravida/templates/puravida/index.php",
+		"/C/xampp/htdocs/puravida/templates/puravida/component.php",
+		"/C/xampp/htdocs/puravida/puravida.sublime-project",
+		"/C/xampp/htdocs/puravida/media/system/js/progressbar-uncompressed.js",
+		"/D/Instaladores/Sublime Text Build 3059 x64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/get_posts.php",
+		"/C/Users/Alonso/Desktop/index.html",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Alonso/Desktop/index.php",
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/xampp/htdocs/somosticos/Acme/Newsletters/NewsletterList.php",
+		"/C/xampp/htdocs/somosticos/Acme/Newsletters/Mailchimp/NewsletterList.php",
 		"/C/xampp/htdocs/puravida/templates/puravida/stylus/main.styl",
-		"/C/xampp/htdocs/puravida/templates/puravida/templateDetails.xml",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/sendmail/sendmail.ini",
+		"/C/Users/Alonso/Desktop/Mail Sent to Local Server/2014-06-26 16.22.02,802.eml",
+		"/C/Users/Alonso/Desktop/Mail Sent to Local Server/2014-06-26 16.21.11,304.eml",
 		"/D/Documents/dumps/puravida.sql",
+		"/C/xampp/htdocs/puravida/templates/puravida/js/main.js",
+		"/C/xampp/htdocs/puravida/templates/puravida/stylus/responsive.styl",
+		"/C/xampp/htdocs/puravida/templates/puravida/stylus/icons.styl",
+		"/D/Downloads/puravida (1)/style.css",
+		"/C/xampp/htdocs/puravida/templates/protostar/index.php",
+		"/C/xampp/htdocs/puravida/templates/puravida/templateDetails.xml",
 		"/D/Downloads/kuzanagi_moodle.sql",
 		"/C/xampp/htdocs/puravida/templates/beez3/index.php",
 		"/D/Proyectos/AVOTZ/pura vida/diseño nuevo/template/templateDetails.xml",
@@ -759,11 +745,7 @@
 		"/C/xampp/htdocs/fashionfactory/app/routes.php",
 		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
 		"/D/Proyectos/hosts",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Preferences.sublime-settings",
 		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/Default/Default (Windows).sublime-keymap",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Default (Windows).sublime-keymap",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/Default/Preferences.sublime-settings",
-		"/D/get_posts.php",
 		"/C/xampp/htdocs/fashionfactory/app/database/seeds/CategoryTableSeeder.php",
 		"/C/xampp/htdocs/fashionfactory/app/database/seeds/CategoryProductTableSeeder.php",
 		"/C/xampp/htdocs/fashionfactory/app/database/seeds/DatabaseSeeder.php",
@@ -825,25 +807,7 @@
 		"/C/xampp/htdocs/fashionfactory/app/views/admin/categories/index.blade.php",
 		"/C/xampp/htdocs/fashionfactory/app/views/admin/categories/edit.blade.php",
 		"/C/xampp/htdocs/fashionfactory/app/views/admin/categories/partials/_form.blade.php",
-		"/C/xampp/htdocs/fashionfactory/app/views/admin/products/edit.blade.php",
-		"/C/xampp/htdocs/fashionfactory/app/views/admin/layouts/partials/_navbar.blade.php",
-		"/C/xampp/htdocs/fashionfactory/app/views/admin/users/index.blade.php",
-		"/C/xampp/htdocs/fashionfactory/app/views/admin/users/partials/_form.blade.php",
-		"/C/xampp/htdocs/fashionfactory/app/views/admin/users/partials/_search.blade.php",
-		"/C/xampp/htdocs/fashionfactory/app/views/admin/users/edit.blade.php",
-		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/index.php",
-		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/header.php",
-		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/style.styl",
-		"/C/xampp/htdocs/blogavotz/index.php",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/SideBarEnhancements/Default.sublime-keymap",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Package Control.sublime-settings",
-		"/C/Users/Alonso/Desktop/sublim/stylos.css",
-		"/C/Users/Alonso/Desktop/sublim/css/stylo.css",
-		"/C/xampp/htdocs/fashionfactory/stylos",
-		"/C/xampp/htdocs/fashionfactory/stilo.css",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Fetch.sublime-settings",
-		"/C/Users/Alonso/Desktop/index.php"
+		"/C/xampp/htdocs/fashionfactory/app/views/admin/products/edit.blade.php"
 	],
 	"find":
 	{
@@ -861,6 +825,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"alert",
+			"btn",
 			"input[",
 			".btn",
 			"View all",
@@ -1032,594 +998,14 @@
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "templates/puravida/js/main.js",
-					"settings":
-					{
-						"buffer_size": 366,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								234,
-								234
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/puravida/stylus/responsive.styl",
-					"settings":
-					{
-						"buffer_size": 835,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								832,
-								832
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "templates/puravida/stylus/icons.styl",
-					"settings":
-					{
-						"buffer_size": 1298,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								850,
-								850
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/D/Downloads/puravida (1)/style.css",
-					"settings":
-					{
-						"buffer_size": 1283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1283
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "templates/protostar/index.php",
-					"settings":
-					{
-						"buffer_size": 6574,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5591,
-								5622
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3060.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -1652,6 +1038,11 @@
 	{
 		"height": 100.0
 	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "puravida.sublime-project",
 	"replace":
 	{
 		"height": 62.0
@@ -1662,6 +1053,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"puravida/inde",
+				"templates\\puravida\\index.php"
+			],
+			[
+				"purai",
+				"templates/puravida/index.php"
+			],
+			[
+				"main.sty",
+				"templates/puravida/stylus/main.styl"
+			],
 			[
 				"protoinde",
 				"templates/protostar/index.php"
@@ -1749,10 +1152,6 @@
 			[
 				"gulp",
 				"Gulpfile.js"
-			],
-			[
-				"main.sty",
-				"public/stylus/main.styl"
 			],
 			[
 				"dbprod",
@@ -2004,7 +1403,7 @@
 		[
 			[
 				"",
-				"/C/xampp/htdocs/avotz/avotz.sublime-project"
+				"C:\\xampp\\htdocs\\avotz\\avotz.sublime-project"
 			],
 			[
 				"av",
@@ -2013,10 +1412,24 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 351.0,
-	"status_bar_visible": true
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
