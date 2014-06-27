@@ -8,11 +8,12 @@
  */
 
 defined('_JEXEC') or die;
+jimport( 'joomla.application.module.helper' );
 
 $app = JFactory::getApplication();
 $doc = JFactory::getDocument();
 $this->language = $doc->language;
-
+$renderer = $doc->loadRenderer('module');
 
 $itemid   = $app->input->getCmd('Itemid', '');
 
@@ -26,175 +27,99 @@ $itemid   = $app->input->getCmd('Itemid', '');
 
 </head>
 <body class="<?php echo ($itemid ? ' bgid-' . $itemid : '')?>">
-	
-	<div id="wrap">
-          
+        <div class="header-top">
+            <div class="inner">
+            <?php
             
-            <section id="main">
-                <section id="left-container">
+                $moduleLang = JModuleHelper::getModule('mod_custom','Languajes');
+                echo $renderer->render($moduleLang);
 
-                    <div id="menu-top">
-                      
-                        <?php if (JModuleHelper::getModule('menu-top')) : ?>
-                        <?php
-										$mt = JModuleHelper::getModule('menu-top');
-										echo JModuleHelper::renderModule($mt);
-									?>
-						<?php endif; ?>
-                    </div>
-                    <div id="reservationbox">
-                        <div id="dialog" class="window">
-                        	<?php if (JModuleHelper::getModule('reservation-box')) : ?>
-                        <?php
-										$rb = JModuleHelper::getModule('reservation-box');
-										echo JModuleHelper::renderModule($rb);
-									?>
-						<?php endif; ?>
-                            <jdoc:include type="modules" name="reservation-box" style="none" />
-                        </div>
-                    </div>
-                    <div id="callbox">
-                        <div id="dialogC" class="window">
-                            <jdoc:include type="modules" name="call-box" style="none" />
-                        </div>
-                    </div>
-                    <div id="contactbox">
-                        <div id="dialogT" class="window">
-                            <jdoc:include type="modules" name="contact-box" style="none" />
-                        </div>
-                    </div>
-                    <div id="contenido">
-                       <div class="text404">
-                       		<h1 class="page-header"><?php echo JText::_('JERROR_LAYOUT_PAGE_NOT_FOUND'); ?></h1>
-								<div class="well">
-								<div class="row-fluid">
-									<div class="span6">
-										<p><strong><?php echo JText::_('JERROR_LAYOUT_ERROR_HAS_OCCURRED_WHILE_PROCESSING_YOUR_REQUEST'); ?></strong></p>
-										<p><?php echo JText::_('JERROR_LAYOUT_NOT_ABLE_TO_VISIT'); ?></p>
-										<ul>
-											<li><?php echo JText::_('JERROR_LAYOUT_AN_OUT_OF_DATE_BOOKMARK_FAVOURITE'); ?></li>
-											<li><?php echo JText::_('JERROR_LAYOUT_MIS_TYPED_ADDRESS'); ?></li>
-											<li><?php echo JText::_('JERROR_LAYOUT_SEARCH_ENGINE_OUT_OF_DATE_LISTING'); ?></li>
-											<li><?php echo JText::_('JERROR_LAYOUT_YOU_HAVE_NO_ACCESS_TO_THIS_PAGE'); ?></li>
-										</ul>
-									</div>
-									<div class="span6">
-										<?php if (JModuleHelper::getModule('search')) : ?>
-											<p><strong><?php echo JText::_('JERROR_LAYOUT_SEARCH'); ?></strong></p>
-											<p><?php echo JText::_('JERROR_LAYOUT_SEARCH_PAGE'); ?></p>
-											<?php
-												$module = JModuleHelper::getModule('search');
-												echo JModuleHelper::renderModule($module);
-											?>
-										<?php endif; ?>
-										<p><?php echo JText::_('JERROR_LAYOUT_GO_TO_THE_HOME_PAGE'); ?></p>
-										<p><a href="<?php echo $this->baseurl; ?>/index.php" class="btn"><i class="icon-home"></i> <?php echo JText::_('JERROR_LAYOUT_HOME_PAGE'); ?></a></p>
-									</div>
-								</div>
-								<hr />
-								<p><?php echo JText::_('JERROR_LAYOUT_PLEASE_CONTACT_THE_SYSTEM_ADMINISTRATOR'); ?></p>
-								<blockquote>
-									<span class="label label-inverse"><?php echo $this->error->getCode(); ?></span> <?php echo $this->error->getMessage();?>
-								</blockquote>
-							</div>
+                $moduleLogin = JModuleHelper::getModule('mod_custom','Login');
+                echo $renderer->render($moduleLogin);
 
-                       </div>
-                        
-                    </div>
-                </section>
-                <section id="right-container">
-                    <div id="logo">
-                    <a href="<?php echo $this->baseurl ?>"><div id="contenedor_legenda"></div><div id="legenda"></div>
-
-                     <div id="mascara"></div>
-                     <div id="logo_animado">
-                         <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="210" height="130" id="Logo animado 3Monkies" align="middle">
-                        <param name="movie" value="<?php echo $this->baseurl ?>/templates/3monkiescr/img/logo.swf" />
-                        <param name="quality" value="high" />
-                        <param name="bgcolor" value="#ffffff" />
-                        <param name="play" value="true" />
-                        <param name="loop" value="true" />
-                        <param name="wmode" value="transparent" />
-                        <param name="scale" value="showall" />
-                        <param name="menu" value="true" />
-                        <param name="devicefont" value="false" />
-                        <param name="salign" value="" />
-                        <param name="allowScriptAccess" value="sameDomain" />
-                        <!--[if !IE]>-->
-                        <object type="application/x-shockwave-flash" data="<?php echo $this->baseurl ?>/templates/3monkiescr/img/logo.swf" width="210" height="130">
-                            <param name="movie" value="<?php echo $this->baseurl ?>/templates/3monkiescr/img/logo.swf" />
-                            <param name="quality" value="high" />
-                            <param name="bgcolor" value="#ffffff" />
-                            <param name="play" value="true" />
-                            <param name="loop" value="true" />
-                            <param name="wmode" value="transparent" />
-                            <param name="scale" value="showall" />
-                            <param name="menu" value="true" />
-                            <param name="devicefont" value="false" />
-                            <param name="salign" value="" />
-                            <param name="allowScriptAccess" value="sameDomain" />
-                        <!--<![endif]-->
-                            <a href="http://www.adobe.com/go/getflash">
-                                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-                            </a>
-                        <!--[if !IE]>-->
-                        </object>
-                        <!--<![endif]-->
-                    </object>
-                     </div>   
-                        
-                    </a>
-                        
-                        
-                    </div>
-                    <nav id="menu">
-                        <?php if (JModuleHelper::getModule('menu')) : ?>
-                        <?php
-										$module = JModuleHelper::getModule('menu');
-										echo JModuleHelper::renderModule($module);
-									?>
-						<?php endif; ?>
-                    </nav>
-                </section>
-            </section>
+                $moduleFormLogin = JModuleHelper::getModule('mod_custom','Login-Form');
+                echo $renderer->render($moduleFormLogin);
+                   
+             ?>
+                <jdoc:include type="modules" name="languajes" style="none" />
+                <jdoc:include type="modules" name="btn-login" style="xhtml" />
+            </div>  
         </div>
-        <footer>
-            <div id="bottom">
-                <nav id="menu-bottom">
-                    
-                     <?php if (JModuleHelper::getModule('menu-bottom')) : ?>
+        <header>
+            <div class="inner">
+                
+                <a href="<?php echo $this->baseurl ?>" class="logo"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.png" alt="Pura vida Teaching" /></a>
+                <div id="btn_nav"><i class="icon-menu"></i></div>
+                <nav class="menu">
+                    <?php if (JModuleHelper::getModule('menu')) : ?>
                         <?php
-										$module = JModuleHelper::getModule('menu-bottom');
-										echo JModuleHelper::renderModule($module);
-									?>
-						<?php endif; ?>
+                                        $mt = JModuleHelper::getModule('menu');
+                                        echo JModuleHelper::renderModule($mt);
+                                    ?>
+                        <?php endif; ?>
                 </nav>
-                <div id="redes">
-                    <jdoc:include type="modules" name="redes" style="none" />
+
+            </div>
+        </header>
+        
+        <section class="main inner">
+                <div class="text404">
+                        <h1 class="page-header"><?php echo JText::_('JERROR_LAYOUT_PAGE_NOT_FOUND'); ?></h1>
+                            <div class="well">
+                            <div class="row-fluid">
+                                <div class="span6">
+                                    <p><strong><?php echo JText::_('JERROR_LAYOUT_ERROR_HAS_OCCURRED_WHILE_PROCESSING_YOUR_REQUEST'); ?></strong></p>
+                                    <p><?php echo JText::_('JERROR_LAYOUT_NOT_ABLE_TO_VISIT'); ?></p>
+                                    <ul>
+                                        <li><?php echo JText::_('JERROR_LAYOUT_AN_OUT_OF_DATE_BOOKMARK_FAVOURITE'); ?></li>
+                                        <li><?php echo JText::_('JERROR_LAYOUT_MIS_TYPED_ADDRESS'); ?></li>
+                                        <li><?php echo JText::_('JERROR_LAYOUT_SEARCH_ENGINE_OUT_OF_DATE_LISTING'); ?></li>
+                                        <li><?php echo JText::_('JERROR_LAYOUT_YOU_HAVE_NO_ACCESS_TO_THIS_PAGE'); ?></li>
+                                    </ul>
+                                </div>
+                                <div class="span6">
+                                    <?php if (JModuleHelper::getModule('search')) : ?>
+                                        <p><strong><?php echo JText::_('JERROR_LAYOUT_SEARCH'); ?></strong></p>
+                                        <p><?php echo JText::_('JERROR_LAYOUT_SEARCH_PAGE'); ?></p>
+                                        <?php
+                                            $module = JModuleHelper::getModule('search');
+                                            echo JModuleHelper::renderModule($module);
+                                        ?>
+                                    <?php endif; ?>
+                                    <p><?php echo JText::_('JERROR_LAYOUT_GO_TO_THE_HOME_PAGE'); ?></p>
+                                    <p><a href="<?php echo $this->baseurl; ?>/index.php" class="btn btn-red"><i class="icon-home"></i> <?php echo JText::_('JERROR_LAYOUT_HOME_PAGE'); ?></a></p>
+                                </div>
+                            </div>
+                            <hr />
+                            <p><?php echo JText::_('JERROR_LAYOUT_PLEASE_CONTACT_THE_SYSTEM_ADMINISTRATOR'); ?></p>
+                            <blockquote>
+                                <span class="label label-inverse"><?php echo $this->error->getCode(); ?></span> <?php echo $this->error->getMessage();?>
+                            </blockquote>
+                        </div>
+
                 </div>
-                <div id="patners">
-                    <jdoc:include type="modules" name="patners" style="none" />
-                </div>
-                <div id="copyright">
-                    <a href="http://www.avotz.com" target="_blank">Copyright &copy; 2013 | Avotz</a >
+            
+        </section>
+        <footer>
+            <em class="tear"></em>
+            <div class="inner" style="text-align: center;">
+               
+                <div class="column column-logo">
+                     <a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.png" alt="Pura vida Teaching"/></a>
+                     <div class="redes">
+                        <a href="#"><i class="icon icon-facebook"></i></a>
+                        <a href="#"><i class="icon icon-twitter"></i></a>
+                        <a href="#"><i class="icon icon-googleplus"></i></a>
+                    </div>
                 </div>
             </div>
         </footer>
-
-      
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
         
-        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery-1.10.1.min.js"></script>
-
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/main.js"></script>
 
-        <script>
-            /*var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));*/
-        </script>
-
-	<jdoc:include type="modules" name="debug" style="none" />
-</body>
+        <jdoc:include type="modules" name="debug" style="none" />
+    </body>
 
 </html>
