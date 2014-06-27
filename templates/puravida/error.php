@@ -119,7 +119,6 @@ $itemid   = $app->input->getCmd('Itemid', '');
         
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/main.js"></script>
 
-        <jdoc:include type="modules" name="debug" style="none" />
     </body>
 
 </html>
