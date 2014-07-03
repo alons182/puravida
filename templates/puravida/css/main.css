@@ -141,7 +141,7 @@ input[type="checkbox"]{display:inline-block;margin:4px 0 0}
 .testimony{zoom:1;border-bottom:1px dotted rgba(94,99,109,0.5);padding-bottom:1em;}
 .testimony:before,.testimony:after{content:"";display:table}
 .testimony:after{clear:both}
-.testimony .image{float:left;margin-right:1em;margin-top:1.5em;}
+.testimony .image{text-align:center;}
 .testimony .image p{margin:0;font-size:.9em;color:#00adee;font-weight:700}
 footer{background:#5e636d;margin-top:2em;}
 footer .column{display:inline-block;color:#c2b49b;vertical-align:top;margin:1em}
@@ -212,6 +212,7 @@ div#b2jcontainer_c108 .control-group.error > label{color:#f1705a}
 div#b2jcontainer_c108 .control-group.error input{color:#f1705a;border-color:#f1705a}
 @media only screen and (min-width:  565px){h1{font-size:2em}
 h2{font-size:1.5em}
+.testimony .image{float:left;text-align:left;margin-right:1em;margin-top:1.5em}
 }@media only screen and (min-width:  768px){.stream-player{width:60%}
 .stream-chat{width:30%}
 .blog-books .span3{display:inline-block;width:300px;margin:.5em}
