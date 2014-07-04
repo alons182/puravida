@@ -519,46 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "templates/puravida/stylus/main.styl",
-			"settings":
-			{
-				"buffer_size": 8851,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/puravida/stylus/icons.styl",
-			"settings":
-			{
-				"buffer_size": 1525,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Proyectos/AVOTZ/pura vida/puravida sitio viejo/language/templates/pages/teaching_0Testimonials.php",
-			"settings":
-			{
-				"buffer_size": 6042,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/Downloads/puravida (2)/style.css",
-			"settings":
-			{
-				"buffer_size": 1510,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/puravida/stylus/responsive.styl",
-			"settings":
-			{
-				"buffer_size": 988,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -720,14 +680,18 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/puravida/templates/puravida/stylus/responsive.styl",
+		"/C/xampp/htdocs/puravida/templates/puravida/stylus/main.styl",
+		"/C/xampp/htdocs/puravida/templates/puravida/stylus/icons.styl",
+		"/D/Proyectos/AVOTZ/pura vida/puravida sitio viejo/language/templates/pages/teaching_0Testimonials.php",
+		"/D/Downloads/puravida (2)/style.css",
+		"/D/Documents/dumps/puravida.sql",
 		"/C/xampp/htdocs/puravida/libraries/cms/html/icons.php",
 		"/C/xampp/htdocs/puravida/layouts/joomla/content/icons.php",
 		"/C/xampp/htdocs/puravida/components/com_contact/helpers/icon.php",
 		"/C/xampp/htdocs/puravida/administrator/manifests/libraries/idna_convert.xml",
 		"/C/xampp/htdocs/puravida/index.php",
-		"/D/Documents/dumps/puravida.sql",
 		"/C/xampp/htdocs/puravida/media/jui/less/responsive.less",
-		"/C/xampp/htdocs/puravida/templates/puravida/stylus/responsive.styl",
 		"/C/xampp/htdocs/puravida/libraries/joomla/http/response.php",
 		"/C/xampp/htdocs/puravida/administrator/components/com_joomlaupdate/restore.php",
 		"/C/xampp/htdocs/puravida/README.txt",
@@ -749,13 +713,11 @@
 		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/Default/Preferences.sublime-settings",
 		"/C/xampp/htdocs/somosticos/Acme/Newsletters/NewsletterList.php",
 		"/C/xampp/htdocs/somosticos/Acme/Newsletters/Mailchimp/NewsletterList.php",
-		"/C/xampp/htdocs/puravida/templates/puravida/stylus/main.styl",
 		"/C/xampp/php/php.ini",
 		"/C/xampp/sendmail/sendmail.ini",
 		"/C/Users/Alonso/Desktop/Mail Sent to Local Server/2014-06-26 16.22.02,802.eml",
 		"/C/Users/Alonso/Desktop/Mail Sent to Local Server/2014-06-26 16.21.11,304.eml",
 		"/C/xampp/htdocs/puravida/templates/puravida/js/main.js",
-		"/C/xampp/htdocs/puravida/templates/puravida/stylus/icons.styl",
 		"/D/Downloads/puravida (1)/style.css",
 		"/C/xampp/htdocs/puravida/templates/protostar/index.php",
 		"/C/xampp/htdocs/puravida/templates/puravida/templateDetails.xml",
@@ -845,9 +807,7 @@
 		"/D/Documents/dumps/fashion.sql",
 		"/C/xampp/htdocs/moodle/theme/clean/README.txt",
 		"/C/xampp/htdocs/moodle/theme/clean/layout/columns1.php",
-		"/C/xampp/htdocs/moodle/theme/clean/settings.php",
-		"/C/xampp/htdocs/moodle/theme/clean/style/custom.css",
-		"/D/Documents/dumps/moodle.sql"
+		"/C/xampp/htdocs/moodle/theme/clean/settings.php"
 	],
 	"find":
 	{
@@ -1038,395 +998,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "templates/puravida/stylus/main.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8851,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4226,
-								4226
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close"
-							],
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5397.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/puravida/stylus/icons.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1525,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								734,
-								739
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close"
-							],
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 420.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/Proyectos/AVOTZ/pura vida/puravida sitio viejo/language/templates/pages/teaching_0Testimonials.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6042,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								6042
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/D/Downloads/puravida (2)/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1510,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1510
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close"
-							],
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "templates/puravida/stylus/responsive.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 988,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								263,
-								263
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close"
-							],
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1830,7 +1403,7 @@
 		[
 			[
 				"",
-				"C:\\xampp\\htdocs\\avotz\\avotz.sublime-project"
+				"C:\\xampp\\htdocs\\fashionfactory\\fashion.sublime-project"
 			],
 			[
 				"av",
