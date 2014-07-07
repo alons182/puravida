@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"ce",
+				"center"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"re",
+				"repeat"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
 				"bo",
 				"border-bottom"
 			],
@@ -34,14 +50,6 @@
 			[
 				"borde",
 				"border-color"
-			],
-			[
-				"ce",
-				"celeste"
-			],
-			[
-				"ver",
-				"verde"
 			],
 			[
 				"r",
@@ -114,10 +122,6 @@
 			[
 				"ca",
 				"categorySelected"
-			],
-			[
-				"re",
-				"ret0	return false"
 			],
 			[
 				"nar",
@@ -510,15 +514,19 @@
 			[
 				"COo",
 				"Cookie-forever	Cookie-forever"
-			],
-			[
-				"Co",
-				"Cookie-make	Cookie-make"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "templates/puravida/index.php",
+			"settings":
+			{
+				"buffer_size": 5386,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -680,8 +688,15 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/puravida/templates/puravida/stylus/responsive.styl",
+		"/C/xampp/htdocs/puravida/templates/puravida/fonts/puravida.woff",
+		"/C/xampp/htdocs/puravida/templates/puravida/fonts/puravida.svg",
+		"/C/xampp/htdocs/puravida/administrator/components/com_templates/templates.php",
+		"/C/xampp/htdocs/puravida/media/mod_languages/css/template.css",
+		"/C/xampp/htdocs/puravida/administrator/includes/toolbar.php",
+		"/C/xampp/htdocs/puravida/index.php",
 		"/C/xampp/htdocs/puravida/templates/puravida/stylus/main.styl",
+		"/C/xampp/htdocs/puravida/components/com_contact/metadata.xml",
+		"/C/xampp/htdocs/puravida/templates/puravida/stylus/responsive.styl",
 		"/C/xampp/htdocs/puravida/templates/puravida/stylus/icons.styl",
 		"/D/Proyectos/AVOTZ/pura vida/puravida sitio viejo/language/templates/pages/teaching_0Testimonials.php",
 		"/D/Downloads/puravida (2)/style.css",
@@ -690,7 +705,6 @@
 		"/C/xampp/htdocs/puravida/layouts/joomla/content/icons.php",
 		"/C/xampp/htdocs/puravida/components/com_contact/helpers/icon.php",
 		"/C/xampp/htdocs/puravida/administrator/manifests/libraries/idna_convert.xml",
-		"/C/xampp/htdocs/puravida/index.php",
 		"/C/xampp/htdocs/puravida/media/jui/less/responsive.less",
 		"/C/xampp/htdocs/puravida/libraries/joomla/http/response.php",
 		"/C/xampp/htdocs/puravida/administrator/components/com_joomlaupdate/restore.php",
@@ -698,7 +712,6 @@
 		"/C/xampp/htdocs/puravida/templates/puravida/css/main.css",
 		"/C/xampp/htdocs/puravida/components/com_mailto/mailto.php",
 		"/C/xampp/htdocs/puravida/modules/mod_articles_archive/mod_articles_archive.php",
-		"/C/xampp/htdocs/puravida/components/com_contact/metadata.xml",
 		"/D/Instaladores/Sublime Text Build 3059 x64/Data/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/xampp/htdocs/puravida/templates/puravida/index.php",
 		"/C/xampp/htdocs/puravida/templates/puravida/component.php",
@@ -802,12 +815,7 @@
 		"/C/xampp/htdocs/fashionfactory/app/models/Product.php",
 		"/C/xampp/htdocs/fashionfactory/.gitignore",
 		"/C/xampp/htdocs/fashionfactory/public/stylus/icons.styl",
-		"/C/xampp/htdocs/fashionfactory/app/Fashion/Repos/Product/ProductRepository.php",
-		"/C/xampp/htdocs/fashionfactory/app/views/admin/layouts/layout.blade.php",
-		"/D/Documents/dumps/fashion.sql",
-		"/C/xampp/htdocs/moodle/theme/clean/README.txt",
-		"/C/xampp/htdocs/moodle/theme/clean/layout/columns1.php",
-		"/C/xampp/htdocs/moodle/theme/clean/settings.php"
+		"/C/xampp/htdocs/fashionfactory/app/Fashion/Repos/Product/ProductRepository.php"
 	],
 	"find":
 	{
@@ -998,8 +1006,87 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "templates/puravida/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1860.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1053,6 +1140,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"templatepuravi",
+				"templates\\puravida\\index.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"main",
+				"templates\\puravida\\stylus\\main.styl"
+			],
 			[
 				"icons",
 				"templates\\puravida\\stylus\\icons.styl"
@@ -1403,7 +1502,11 @@
 		[
 			[
 				"",
-				"C:\\xampp\\htdocs\\fashionfactory\\fashion.sublime-project"
+				"C:\\xampp\\htdocs\\avotz\\avotz.sublime-project"
+			],
+			[
+				"p",
+				"C:\\xampp\\htdocs\\puravida\\puravida.sublime-project"
 			],
 			[
 				"av",

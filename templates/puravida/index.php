@@ -60,11 +60,9 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
         
         <?php if ($this->countModules('banner')) : ?>
             <section class="banner">
-                <div class="inner">
-                     <jdoc:include type="modules" name="banner" style="none" />
-                </div>
+                
+                <jdoc:include type="modules" name="banner" style="none" />
                
-               <!-- <img src="img/banner.jpg" alt="banner" />-->
             </section>
          <?php endif; ?>
          <?php if ($this->countModules('header-section')) : ?>
@@ -114,9 +112,9 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                 </div>
             </div>
         </footer>
-       <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>-->
-
+        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.cycle2.min.js"></script>
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
