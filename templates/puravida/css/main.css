@@ -130,7 +130,7 @@ input[type="checkbox"]{display:inline-block;margin:4px 0 0}
 .section-video{zoom:1;padding-bottom:2em;}
 .section-video:before,.section-video:after{content:"";display:table}
 .section-video:after{clear:both}
-.section-video .video,.section-video .info{display:inline-block}
+.section-video .video,.section-video .info{display:inline-block;vertical-align:top}
 .section-video .video{margin-top:1em;margin-right:1.5em;}
 .section-video .video video{width:100%;height:auto}
 .section-video .video img{width:100%}
