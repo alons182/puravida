@@ -3,29 +3,30 @@
 @import "normalize.styl"
 @import "icons.styl"
 
-azul = #0168AA
+azul = #00679a
 azul_oscuro = #004977
-rojo = #F1705A
+rojo = #d20009 
 celeste = #00ADEE
 celeste2 = #90D6F1
-verde = #CED786
+verde = #396844
 gris = #5E636D
 claro = #E9EDDB
+amarillo = #fdcd00
 
 body
-	background url('../img/bg.png') repeat claro
+	
 	font-family 'Roboto Slab', serif
 	font-size 16px
 	line-height 25px
 	
 header 
-	background azul
-	height 75px
+	background url('../img/header.jpg') no-repeat center center #FFF
+	height 375px
 a 
 	text-decoration	none
 	color rojo
 	&:hover
-		color celeste2
+		color azul
 h1 
 	color gris
 	font-size 1.5em
@@ -34,7 +35,7 @@ h1
 h2 
 	font-size 1em
 	font-weight 400
-	color celeste
+	color azul
 	text-transform uppercase
 button
 input[type="submit"]
@@ -73,7 +74,7 @@ input[type="checkbox"]
 	max-width 1000px
 
 .header-top
-	background azul_oscuro
+	background verde
 	height 33px
 .languajes
 	float left
@@ -83,12 +84,12 @@ input[type="checkbox"]
 		color claro
 		text-transform uppercase
 		font-size 12px
-		margin-right .5em
+		margin-right .8em
 		padding-right .8em
-		border-right 1px solid gris
+		border-right 1px solid claro
 		&:hover
-			color celeste
-		&:nth-child(4)
+			color azul
+		&:nth-child(3)
 			border-right none
 .btn-login
 	background claro
@@ -120,7 +121,7 @@ input[type="checkbox"]
 	ul
 		margin 0
 		padding 0
-		background azul_oscuro
+		background azul
 
 	li
 		display block//inline-block
@@ -133,15 +134,16 @@ input[type="checkbox"]
 		
 		&:last-child
 			a 
-				color #FFF
+				color rojo
 
 	a 
-		color #FFF
+		color verde
+		background amarillo
 		display block 
 		padding .5em
 
 		&:hover
-			color verde
+			color #FFF
 
 .banner
 	
@@ -191,10 +193,25 @@ input[type="checkbox"]
 .btn-success
 	background rojo
 	&:hover
-		background #E5705A
+		background azul
 		color #FFF
 		
+.books
+	position absolute
+	left -10px
+	top 490px
+	width 350px
 
+	img 
+		width 100%
+.books2
+	position absolute
+	right -10px
+	top 490px
+	width 350px
+
+	img 
+		width 100%
 .main 
 	background #FFF
 	padding .5em 1em
@@ -202,10 +219,35 @@ input[type="checkbox"]
 	box-shadow 0px 0px 8px rgba(0,0,0,.5)
 	margin-top 4em
 	color gris
+	position relative
+	z-index 2
 	
+	/*&:after
+		content url('../img/books.png') no-repeat
+		width 250px
+		height 200px*/
+
+.img-home
+	position relative
+	img 
+		width 100%
+
+.skype-home
+	position absolute
+	color celeste
+	text-align center
+	top 70px
+	left 150px
+	span 
+		display block
+		text-decoration underline
+		text-transform uppercase
+		font-size 1.5em
+	i 
+		font-size 6em
 
 .subtitle
-	color celeste
+	color azul
 	font-size 1rem
 	display block
 	margin .5em 0
@@ -223,7 +265,7 @@ input[type="checkbox"]
 	margin .5em
 
 	h2 
-		color celeste
+		color azul
 		margin-top 1em
 		text-transform none	
 	p
@@ -331,11 +373,11 @@ input[type="checkbox"]
 
 		
 footer
-	background gris
+	background verde
 	margin-top 2em
 	.column
 		display inline-block
-		color #C2B49B
+		color #FFF
 		vertical-align top
 		margin 1em
 	.column-links
@@ -344,6 +386,7 @@ footer
 		color #FFF
 .column-contact
 	width auto
+	text-align center
 .column-logo 
 	a 
 		margin-top 2em
@@ -352,13 +395,31 @@ footer
 		width 100%
 .redes 
 	a 
-		color gris
+		color #FFF
 		display inline-block
 		background #C2B49B
 		border-radius 50%
 		padding .4em
+		margin .2em
+		font-size 4em
+
 		i 
 			display block
+
+	.facebook
+		background azul
+	.twitter
+		background celeste
+	.google
+		background #da4835
+	.youtube
+		background #ee3e3e
+	.skype
+		background celeste
+	.classes
+		background amarillo
+
+		
 
 
 .menu-footer
@@ -375,12 +436,7 @@ footer
 	.item-109
 		display none
 
-.tear 
-	background url('../img/footer_tear.png') repeat-x 
-	height 10px
-	display block
-	position relative
-	top -10px
+
 
 .streaming
 	text-align center
@@ -466,7 +522,7 @@ fieldset
 	color #FFF
 
 .alert-info
-	background celeste
+	background azul
 	color #FFF 
 
 .tooltip 
@@ -547,7 +603,7 @@ fieldset
 
 #btn_nav
 	position absolute
-	color #FFF
+	color verde
 	right 1em
 	top 1.6em
 	cursor pointer
@@ -625,7 +681,7 @@ div#b2jcontainer_c108
 		border-color #EED3D7
 		color #FFF
 	.alert-info
-		background celeste
+		background azul
 		color #FFF 
 
 	.required

@@ -49,11 +49,8 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
         <header>
             <div class="inner">
                 
-                <a href="<?php echo $this->baseurl ?>" class="logo"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.png" alt="Pura vida Teaching" /></a>
-                <div id="btn_nav"><i class="icon-menu"></i></div>
-                <nav class="menu">
-                    <jdoc:include type="modules" name="menu" style="none" />
-                </nav>
+                <a href="<?php echo $this->baseurl ?>" class="logo"></a>
+                
 
             </div>
         </header>
@@ -74,6 +71,11 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                
             </section>
          <?php endif; ?>
+         <div id="btn_nav"><i class="icon-menu"></i></div>
+        <nav class="menu">
+            <jdoc:include type="modules" name="menu" style="none" />
+            <div id="btn_nav"><i class="icon-menu"></i></div>
+        </nav>
         <section class="main inner">
                 <jdoc:include type="message" />
                 <jdoc:include type="component" />
@@ -96,22 +98,31 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                 <div class="column column-contact">
                     <jdoc:include type="modules" name="contact-footer" style="none" />
                     <div class="redes">
-                        <a href="#"><i class="icon icon-facebook"></i></a>
-                        <a href="#"><i class="icon icon-twitter"></i></a>
-                        <a href="#"><i class="icon icon-googleplus"></i></a>
+                        <a href="#" title="Facebook" class="facebook"><i class="icon icon-facebook"></i></a>
+                        <a href="#" title="Twitter" class="twitter"><i class="icon icon-twitter"></i></a>
+                        <a href="#" title="Google Plus" class="google"><i class="icon icon-google-plus"></i></a>
+                        <a href="#" title="Youtube" class="youtube"><i class="icon icon-youtube"></i></a>
+                        <a href="skype:gerardoopz4582?chat" title="Skype" class="skype"><i class="icon icon-skype"></i></a>
+                        <a href="http://plataforma.puravidateaching.com/" title="Start Classes" class="classes" target="_blank"><i class="icon icon-classes"></i></a>
                     </div>
                 </div>
-                <div class="column column-links">
+                <!--<div class="column column-links">
                     <h3>Links</h3>
                     <nav class="menu-footer">
                         <jdoc:include type="modules" name="menu-footer" style="none" />
                     </nav>
-                </div>
-                <div class="column column-logo">
+                </div>-->
+                <!--<div class="column column-logo">
                      <a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.png" alt="Pura vida Teaching"/></a>
-                </div>
+                </div>-->
             </div>
         </footer>
+        <div class="books">
+            <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/books.png" alt="Books" />
+        </div>
+        <div class="books2">
+            <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/books2.png" alt="Books" />
+        </div>
         <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>-->
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.cycle2.min.js"></script>

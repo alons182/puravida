@@ -3,7 +3,7 @@
 		btnMovil = $('#btn_nav'),
 		btnLogin = $('.btn-login');
 
-	menu.find('.item-109 a').addClass('btn btn-red');
+	//menu.find('.item-109 a').addClass('btn btn-red');
 
 	// Login form
     btnLogin.click(function(e){
