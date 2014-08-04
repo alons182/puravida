@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ce",
+				"celeste"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
 				"ta",
 				"target	Attr"
 			],
@@ -30,10 +42,6 @@
 			[
 				"ver",
 				"verde"
-			],
-			[
-				"ce",
-				"center"
 			],
 			[
 				"re",
@@ -70,10 +78,6 @@
 			[
 				"pa",
 				"padding-bottom"
-			],
-			[
-				"tex",
-				"text-align"
 			],
 			[
 				"tab",
@@ -130,10 +134,6 @@
 			[
 				"nar",
 				"naranja"
-			],
-			[
-				"co",
-				"count"
 			],
 			[
 				"fon",
@@ -680,23 +680,24 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/puravida/templates/puravida/stylus/main.styl",
-		"/C/xampp/htdocs/puravida/templates/puravida/stylus/responsive.styl",
+		"/D/suscripcion.php",
 		"/C/xampp/htdocs/puravida/templates/puravida/index.php",
-		"/C/xampp/htdocs/puravida/images/pura_vida_teaching.mp4",
-		"/C/xampp/htdocs/puravida/puravida.sublime-project",
+		"/C/xampp/htdocs/puravida/templates/puravida/stylus/main.styl",
+		"/D/Documents/dumps/puravida.sql",
+		"/C/xampp/htdocs/puravida/components/com_contact/metadata.xml",
 		"/C/xampp/htdocs/puravida/media/system/js/progressbar-uncompressed.js",
+		"/C/xampp/htdocs/puravida/puravida.sublime-project",
+		"/C/xampp/htdocs/puravida/templates/puravida/stylus/responsive.styl",
+		"/C/xampp/htdocs/puravida/images/pura_vida_teaching.mp4",
 		"/C/xampp/htdocs/puravida/index.php",
 		"/C/xampp/htdocs/puravida/administrator/index.php",
 		"/C/xampp/htdocs/puravida/README.txt",
-		"/C/xampp/htdocs/puravida/components/com_contact/metadata.xml",
 		"/C/xampp/htdocs/puravida/includes/framework.php",
 		"/C/xampp/htdocs/puravida/components/com_content/models/forms/filter_articles.xml",
 		"/C/xampp/htdocs/puravida/templates/puravida/stylus/icons.styl",
 		"/C/xampp/htdocs/puravida/administrator/components/com_installer/controller.php",
 		"/C/xampp/htdocs/puravida/administrator/components/com_jce/includes/constants.php",
 		"/C/xampp/htdocs/puravida/templates/puravida/js/main.js",
-		"/D/suscripcion.php",
 		"/D/Downloads/puravida/style.css",
 		"/D/Downloads/puravida (2)/style.css",
 		"/C/xampp/htdocs/puravida/templates/puravida/fonts/puravida.svg",
@@ -733,7 +734,6 @@
 		"/C/xampp/htdocs/puravida/templates/protostar/component.php",
 		"/C/xampp/htdocs/puravida/templates/index.html",
 		"/D/Proyectos/AVOTZ/pura vida/puravida sitio viejo/language/templates/pages/teaching_0Testimonials.php",
-		"/D/Documents/dumps/puravida.sql",
 		"/C/xampp/htdocs/puravida/libraries/cms/html/icons.php",
 		"/C/xampp/htdocs/puravida/layouts/joomla/content/icons.php",
 		"/C/xampp/htdocs/puravida/components/com_contact/helpers/icon.php",
@@ -825,6 +825,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"books",
 			"btn",
 			"initFancybox",
 			"Hits",
@@ -951,8 +952,7 @@
 			"loader",
 			"templates/verbodivino/images/banner/",
 			"description",
-			"main",
-			"cycle"
+			"main"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1054,16 +1054,16 @@
 		"selected_items":
 		[
 			[
+				"main",
+				"templates\\puravida\\stylus\\main.styl"
+			],
+			[
 				"puravidainde",
 				"templates\\puravida\\index.php"
 			],
 			[
 				"respo",
 				"templates\\puravida\\stylus\\responsive.styl"
-			],
-			[
-				"main",
-				"templates\\puravida\\stylus\\main.styl"
 			],
 			[
 				"icons",
@@ -1434,11 +1434,11 @@
 		"selected_items":
 		[
 			[
-				"",
+				"fas",
 				"C:\\xampp\\htdocs\\fashionfactory\\fashion.sublime-project"
 			],
 			[
-				"fas",
+				"",
 				"C:\\xampp\\htdocs\\fashionfactory\\fashion.sublime-project"
 			],
 			[
