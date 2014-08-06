@@ -8,7 +8,8 @@ azul_oscuro = #004977
 rojo = #d20009 
 celeste = #00ADEE
 celeste2 = #90D6F1
-verde = #396844
+verde = #329834 //#396844
+verde2 = #329834
 gris = #5E636D
 claro = #E9EDDB
 amarillo = #fdcd00
@@ -18,6 +19,7 @@ body
 	font-family 'Roboto Slab', serif
 	font-size 16px
 	line-height 25px
+	overflow-x hidden
 	
 header 
 	background url('../img/header.jpg') no-repeat center center #FFF
@@ -28,7 +30,7 @@ a
 	&:hover
 		color azul
 h1 
-	color gris
+	color azul
 	font-size 1.5em
 	font-weight 400
 	text-transform uppercase
@@ -71,7 +73,7 @@ input[type="checkbox"]
 
 .inner
 	margin 0 auto
-	max-width 1000px
+	max-width 960px
 
 .header-top
 	background verde
@@ -139,6 +141,7 @@ input[type="checkbox"]
 	a 
 		color verde
 		background amarillo
+		font-weight bold
 		display block 
 		padding .5em
 
@@ -228,7 +231,11 @@ input[type="checkbox"]
 		height 200px*/
 
 .img-home
+	width 500px
+	height 324px
 	position relative
+	margin 0 auto
+	border 2px solid celeste
 	img 
 		width 100%
 
@@ -236,8 +243,8 @@ input[type="checkbox"]
 	position absolute
 	color celeste
 	text-align center
-	top 70px
-	left 150px
+	top 15px
+	left 10px
 	span 
 		display block
 		text-decoration underline
@@ -247,7 +254,7 @@ input[type="checkbox"]
 		font-size 6em
 
 .subtitle
-	color azul
+	color gris
 	font-size 1rem
 	display block
 	margin .5em 0
@@ -336,6 +343,7 @@ input[type="checkbox"]
 			width 100%
 	.info 
 		width auto//50%
+
 
 .blog-books
 	
