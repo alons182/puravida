@@ -36,5 +36,5 @@ JDEBUG ? $_PROFILER->mark('afterLoad') : null;
 // Instantiate the application.
 $app = JFactory::getApplication('site');
 
-// Execute the application.
+// Execute the application
 $app->execute();
