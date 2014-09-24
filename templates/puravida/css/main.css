@@ -150,11 +150,12 @@ input[type="checkbox"]{display:inline-block;margin:4px 0 0}
 .testimony:after{clear:both}
 .testimony .image{text-align:center;margin-top:1.5em;}
 .testimony .image p{margin:0;font-size:.9em;color:#00adee;font-weight:700}
-footer{background:#2d8b59;margin-top:2em;}
+footer{background:#329834;margin-top:2em;}
 footer .column{display:inline-block;color:#fff;vertical-align:top;margin:1em}
 footer .column-links{display:none}
 footer h3{color:#fff}
-.column-contact{width:auto;text-align:center}
+.column-contact{width:auto;text-align:center;}
+.column-contact .info-email{font-size:1.5em}
 .column-logo a{margin-top:2em;display:block}
 .column-logo img{width:100%}
 .redes a{color:#fff;display:inline-block;background:#c2b49b;-webkit-border-radius:50%;border-radius:50%;padding:.4em;margin:.2em;font-size:4em;}
