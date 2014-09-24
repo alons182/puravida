@@ -223,6 +223,12 @@ div#b2jcontainer_c108 .alert-info{background:#00679a;color:#fff}
 div#b2jcontainer_c108 .required,div#b2jcontainer_c108 .asterisk{color:#d20009}
 div#b2jcontainer_c108 .control-group.error > label{color:#d20009}
 div#b2jcontainer_c108 .control-group.error input{color:#d20009;border-color:#d20009}
+.gallery{text-align:center;font-size:0}
+.gallery-item{display:inline-block;vertical-align:top;font-size:1rem;width:218px;padding:.5rem;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.gallery-link{display:block;background:#329834;}
+.gallery-link img{width:100%;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
+.gallery-link img:hover{opacity:.6;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";filter:alpha(opacity=60)}
+.gallery-info h3{margin:0;font-size:1em;font-weight:normal}
 @media only screen and (min-width:  565px){h1{font-size:2em}
 h2{font-size:1.5em}
 .testimony .image{float:left;text-align:left;margin-right:1em;margin-top:1.5em}

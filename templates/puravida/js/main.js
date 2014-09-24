@@ -16,6 +16,8 @@
        
     });
 
+    $('.gallery-link').colorbox();
+
 
 })(jQuery);
 
