@@ -51,7 +51,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
             <div class="inner">
                 
                 <a href="<?php echo $this->baseurl ?>" class="logo"></a>
-                
+                <a href="skype:p8t3ici8?chat" class="skype-header"><span>Online Classes!</span><i class="icon-skype"></i> </a>
 
             </div>
         </header>
@@ -75,7 +75,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
          <div id="btn_nav"><i class="icon-menu"></i></div>
         <nav class="menu">
             <jdoc:include type="modules" name="menu" style="none" />
-            <div id="btn_nav"><i class="icon-menu"></i></div>
+            
         </nav>
         <section class="main inner">
                 <jdoc:include type="message" />
@@ -101,7 +101,6 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                     <div class="redes">
                         <a href="#" title="Facebook" class="facebook"><i class="icon icon-facebook"></i></a>
                         <a href="#" title="Google Plus" class="google"><i class="icon icon-google-plus"></i></a>
-                        <a href="#" title="Twitter" class="twitter"><i class="icon icon-twitter"></i></a>
                         <a href="#" title="Youtube" class="youtube"><i class="icon icon-youtube"></i></a>
                         <a href="skype:gerardoopz4582?chat" title="Skype" class="skype"><i class="icon icon-skype"></i></a>
                         <a href="http://plataforma.puravidateaching.com/" title="Start Classes" class="classes" target="_blank"><i class="icon icon-classes"></i></a>
