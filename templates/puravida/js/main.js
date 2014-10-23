@@ -16,7 +16,7 @@
        
     });
 
-    $('.gallery-link').colorbox();
+    $('.gallery-link').colorbox({rel: 'gallery'});
 
 
 })(jQuery);
