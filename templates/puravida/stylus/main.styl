@@ -21,8 +21,8 @@ body
 	overflow-x hidden
 	
 header 
-	background url('../img/header.jpg') no-repeat center center #FFF
-	height 375px
+	background url('../img/header-mobile.jpg') no-repeat center center #FFF
+	height 235px
 a 
 	text-decoration	none
 	color rojo
@@ -181,6 +181,9 @@ input[type="checkbox"]
 		text-transform uppercase
 		color #FFF
 		font-weight 700
+.cycle-slideshow
+	img 
+		width 100%
 .header-section
 	margin-top 3em
 	h1
@@ -260,7 +263,7 @@ input[type="checkbox"]
 	padding .5em 1em
 	border-radius 5px
 	box-shadow 0px 0px 8px rgba(0,0,0,.5)
-	margin-top 4em
+	margin-top 0
 	color gris
 	position relative
 	z-index 2
@@ -285,6 +288,7 @@ input[type="checkbox"]
 	text-align center
 	top 15px
 	left 10px
+	outline 0
 	span 
 		display block
 		text-decoration underline
@@ -294,8 +298,12 @@ input[type="checkbox"]
 		font-size 5em
 
 .skype-header
-	top 160px
+	top 135px
 	left 0
+	span 
+		font-size .9em
+	i 
+		font-size 3.5em
 
 .subtitle
 	color gris
@@ -388,6 +396,55 @@ input[type="checkbox"]
 	.info 
 		width auto//50%
 
+.video 
+	
+	video
+		width 100%
+		height auto
+.button-video
+	position absolute
+	left 0
+.button-blog
+	position absolute
+	right 0	
+	
+.video-link
+	border-radius: 3px;
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	border-bottom: 2px solid;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+	margin-right: 10px;
+	padding: 16px 28px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 18px;
+	border-color #72994a
+	background-color #95c85f
+	&:hover
+		color #FFF
+		background-color #72994a
+
+.blog-link
+	border-radius: 3px;
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	border-bottom: 2px solid;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+	margin-left: 10px;
+	padding: 16px 28px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 18px;
+	border-color #d6a112
+	background-color #fbbb0f
+	&:hover
+		color #FFF
+		background-color #d6a112		
+	
+
 
 .blog-books
 	
@@ -427,11 +484,12 @@ input[type="checkbox"]
 footer
 	background verde
 	margin-top 2em
+	text-align center
 	.column
 		display inline-block
 		color #FFF
 		vertical-align top
-		margin 1em
+		//margin 1em
 	.column-links
 		display none
 	h3 
@@ -451,7 +509,7 @@ footer
 .redes
 	text-align center
 	margin 0 auto
-	width 960px
+	max-width 960px
 	a 
 		color #FFF
 		display inline-block
@@ -459,7 +517,7 @@ footer
 		border-radius 50%
 		padding .4em
 		margin .2em
-		font-size 4em
+		font-size 2em
 
 		i 
 			display block

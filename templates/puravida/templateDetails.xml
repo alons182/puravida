@@ -35,6 +35,8 @@
 		<position>video</position>
 		<position>contact-footer</position>
 		<position>menu-footer</position>
+		<position>btn-video</position>
+		<position>btn-blog</position>
 		
 	</positions>
 	
