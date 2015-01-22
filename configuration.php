@@ -54,8 +54,8 @@ class JConfig {
 	public $sef_suffix = '1';
 	public $unicodeslugs = '1';
 	public $feed_limit = '10';
-	public $log_path = 'C:\\xampp\\htdocs\\puravidateaching/logs';
-	public $tmp_path = 'C:\\xampp\\htdocs\\puravidateaching/tmp';
+	public $log_path = 'D:\\xampp\\htdocs\\puravida/logs';
+	public $tmp_path = 'D:\\xampp\\htdocs\\puravida/tmp';
 	public $lifetime = '30';
 	public $session_handler = 'database';
 	public $memcache_persist = '1';

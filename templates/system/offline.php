@@ -46,7 +46,7 @@ $twofactormethods = UsersHelper::getTwoFactorMethods();
 			<?php echo JText::_('JOFFLINE_MESSAGE'); ?>
 		</p>
 	<?php endif; ?>
-	<form action="<?php echo JRoute::_('index.php', true); ?>" method="post" id="form-login">
+	<!--<form action="<?php echo JRoute::_('index.php', true); ?>" method="post" id="form-login">
 	<fieldset class="input">
 		<p id="form-login-username">
 			<label for="username"><?php echo JText::_('JGLOBAL_USERNAME'); ?></label>
@@ -77,7 +77,7 @@ $twofactormethods = UsersHelper::getTwoFactorMethods();
 		<input type="hidden" name="return" value="<?php echo base64_encode(JUri::base()); ?>" />
 		<?php echo JHtml::_('form.token'); ?>
 	</fieldset>
-	</form>
+	</form>-->
 	</div>
 </body>
 </html>
