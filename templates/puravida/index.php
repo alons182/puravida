@@ -51,7 +51,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
             <div class="inner">
                 
                 <a href="<?php echo $this->baseurl ?>" class="logo"></a>
-                <a href="skype:PuraVidaTeaching?chat" class="skype-header"><span>Online Classes!</span><i class="icon-skype"></i> </a>
+                <a href="skype:patricia.vogel63?chat" class="skype-header"><span>Online Classes!</span><i class="icon-skype"></i> </a>
 
             </div>
         </header>
@@ -102,7 +102,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                         <a href="#" title="Facebook" class="facebook"><i class="icon icon-facebook"></i></a>
                         <a href="#" title="Google Plus" class="google"><i class="icon icon-google-plus"></i></a>
                         <a href="#" title="Youtube" class="youtube"><i class="icon icon-youtube"></i></a>
-                        <a href="skype:PuraVidaTeaching?chat" title="Skype" class="skype"><i class="icon icon-skype"></i></a>
+                        <a href="skype:patricia.vogel63?chat" title="Skype" class="skype"><i class="icon icon-skype"></i></a>
                         <a href="http://plataforma.puravidateaching.com/" title="Start Classes" class="classes" target="_blank"><i class="icon icon-classes"></i></a>
                     </div>
                 </div>
@@ -116,6 +116,14 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                      <a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.png" alt="Pura vida Teaching"/></a>
                 </div>-->
             </div>
+             <aside class="aside-buttons button-video">
+                    <jdoc:include type="modules" name="btn-video" style="none" />
+           
+                </aside>
+                <aside class="aside-buttons button-blog">
+                    <jdoc:include type="modules" name="btn-blog" style="none" />
+                   
+                </aside>
         </footer>
         <div class="books">
             <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/books.png" alt="Books" />
@@ -123,14 +131,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
         <div class="books2">
             <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/books2.png" alt="Books" />
         </div>
-         <aside class="aside-buttons button-video">
-            <jdoc:include type="modules" name="btn-video" style="none" />
-           
-        </aside>
-        <aside class="aside-buttons button-blog">
-            <jdoc:include type="modules" name="btn-blog" style="none" />
-           
-        </aside>
+        
         <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>-->
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.cycle2.min.js"></script>

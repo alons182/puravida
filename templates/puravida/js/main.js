@@ -26,11 +26,11 @@
             height: 450
         });
 
-    $aside_buttons.stickyfloat({
+   /* $aside_buttons.stickyfloat({
          duration: 400,
          //offsetY: 200,
          stickToBottom: true
-    });
+    });*/
 
 })(jQuery);
 
