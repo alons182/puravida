@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-family"
+			],
+			[
 				"ve",
 				"verde"
 			],
@@ -42,10 +46,6 @@
 			[
 				"pa",
 				"padding-top"
-			],
-			[
-				"fon",
-				"font-weight"
 			],
 			[
 				"ver",
@@ -680,6 +680,7 @@
 	},
 	"expanded_folders":
 	[
+		"/D/xampp/htdocs/puravida",
 		"/D/xampp/htdocs/puravida/templates",
 		"/D/xampp/htdocs/puravida/templates/puravida",
 		"/D/xampp/htdocs/puravida/templates/puravida/js",
@@ -688,7 +689,12 @@
 	"file_history":
 	[
 		"/D/xampp/htdocs/puravida/templates/puravida/stylus/main.styl",
+		"/D/xampp/htdocs/puravida/templates/puravida/js/main.js",
 		"/D/xampp/htdocs/puravida/templates/puravida/stylus/responsive.styl",
+		"/D/xampp/htdocs/puravida/templates/puravida/index.php",
+		"/D/Instaladores/Sublime Text Build 3059 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Downloads/Compressed/comic-neue-2.2/comic-neue-2.2/Web/font.css",
+		"/D/xampp/htdocs/puravida/templates/puravida/stylus/icons.styl",
 		"/D/xampp/htdocs/puravida/README.md",
 		"/D/xampp/htdocs/puravida/components/com_contact/metadata.xml",
 		"/C/Users/Alonso/Desktop/objetivos_real_2.php",
@@ -705,9 +711,7 @@
 		"/D/info.php",
 		"/D/xampp/htdocs/energycontrol/admin/index.php",
 		"/D/xampp/htdocs/energycontrol/admin/cron.php",
-		"/D/xampp/htdocs/puravida/templates/puravida/index.php",
 		"/D/xampp/htdocs/puravida/templates/puravida/templateDetails.xml",
-		"/D/xampp/htdocs/puravida/templates/puravida/js/main.js",
 		"/D/xampp/htdocs/puravida/media/system/js/progressbar-uncompressed.js",
 		"/D/xampp/htdocs/puravida/puravida.sublime-project",
 		"/D/xampp/htdocs/puravida/components/com_b2jcontact/index.html",
@@ -811,10 +815,7 @@
 		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/page.php",
 		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/content-page.php",
 		"/D/Downloads/remote.php",
-		"/C/xampp/htdocs/puravida/templates/beez3/javascript/respond.js",
-		"/C/xampp/htdocs/puravida/media/jui/less/responsive.less",
-		"/C/xampp/htdocs/puravida/libraries/legacy/response/response.php",
-		"/D/Instaladores/KON B00t/KB00t/Cyber-Pirate.nfo"
+		"/C/xampp/htdocs/puravida/templates/beez3/javascript/respond.js"
 	],
 	"find":
 	{
@@ -832,6 +833,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";",
 			"header",
 			"books",
 			"slider",
@@ -958,8 +960,7 @@
 			"shadowbox",
 			"inview",
 			"list-unstyled",
-			"overflow-scroll",
-			"Fix validation errors and try again"
+			"overflow-scroll"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1014,7 +1015,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 40.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -1063,12 +1064,12 @@
 		"selected_items":
 		[
 			[
-				"resp",
-				"templates\\puravida\\stylus\\responsive.styl"
-			],
-			[
 				"main.sty",
 				"templates\\puravida\\stylus\\main.styl"
+			],
+			[
+				"resp",
+				"templates\\puravida\\stylus\\responsive.styl"
 			],
 			[
 				"puravidain",
@@ -1463,6 +1464,14 @@
 		"selected_items":
 		[
 			[
+				"avo",
+				"D:\\xampp\\htdocs\\avotz\\avotz.sublime-project"
+			],
+			[
+				"av",
+				"D:\\xampp\\htdocs\\avotz\\avotz.sublime-project"
+			],
+			[
 				"gua",
 				"D:\\xampp\\htdocs\\guanacasteviajes\\guanacasteviajes.sublime-project"
 			],
@@ -1487,10 +1496,6 @@
 				"C:\\xampp\\htdocs\\fashionfactory\\fashion.sublime-project"
 			],
 			[
-				"avo",
-				"C:\\xampp\\htdocs\\avotz\\avotz.sublime-project"
-			],
-			[
 				"",
 				"C:\\xampp\\htdocs\\best-quality\\bestquality.sublime-project"
 			],
@@ -1505,10 +1510,6 @@
 			[
 				"p",
 				"C:\\xampp\\htdocs\\puravida\\puravida.sublime-project"
-			],
-			[
-				"av",
-				"/C/xampp/htdocs/avotz/avotz.sublime-project"
 			]
 		],
 		"width": 380.0
