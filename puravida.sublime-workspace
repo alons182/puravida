@@ -519,22 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/D/xampp/htdocs/blogdiamante/helpers/get_posts.php",
-			"settings":
-			{
-				"buffer_size": 1048,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/get_posts.php",
-			"settings":
-			{
-				"buffer_size": 1048,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -701,13 +685,18 @@
 	},
 	"expanded_folders":
 	[
-		"/D/xampp/htdocs/puravida/templates",
+		"/D/xampp/htdocs/puravida",
 		"/D/xampp/htdocs/puravida/templates/puravida",
 		"/D/xampp/htdocs/puravida/templates/puravida/js",
 		"/D/xampp/htdocs/puravida/templates/puravida/stylus"
 	],
 	"file_history":
 	[
+		"/D/xampp/htdocs/puravida/templates/puravida/js/main.js",
+		"/D/xampp/htdocs/puravida/templates/puravida/index.php",
+		"/C/Users/Alonso/Desktop/wp-config.php",
+		"/D/get_posts.php",
+		"/D/xampp/htdocs/blogdiamante/helpers/get_posts.php",
 		"/D/xampp/htdocs/blogdiamante/wp-content/themes/diamante/index.php",
 		"/D/xampp/htdocs/blogdiamante/wp-content/themes/diamante/header.php",
 		"/D/xampp/htdocs/blogavotz/helpers/get_posts.php",
@@ -716,8 +705,6 @@
 		"/D/.env",
 		"/D/xampp/htdocs/puravida/templates/puravida/stylus/responsive.styl",
 		"/D/xampp/htdocs/puravida/templates/puravida/stylus/main.styl",
-		"/D/xampp/htdocs/puravida/templates/puravida/js/main.js",
-		"/D/xampp/htdocs/puravida/templates/puravida/index.php",
 		"/D/Instaladores/Sublime Text Build 3059 x64/Data/Packages/User/Preferences.sublime-settings",
 		"/D/Downloads/Compressed/comic-neue-2.2/comic-neue-2.2/Web/font.css",
 		"/D/xampp/htdocs/puravida/templates/puravida/stylus/icons.styl",
@@ -832,10 +819,7 @@
 		"/C/xampp/htdocs/energycontrol/protected/pages/modules/header/admin/addeditheader.page",
 		"/C/xampp/htdocs/energycontrol/protected/pages/modules/header/admin/addeditheader.php",
 		"/C/xampp/htdocs/energycontrol/protected/pages/modules/administradores/admin/administrar.page",
-		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/plugins/dropzone/css/dropzone.css",
-		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/plugins/dropzone/dropzone.js",
-		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/content.php",
-		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/content-single.php"
+		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/plugins/dropzone/css/dropzone.css"
 	],
 	"find":
 	{
@@ -1028,187 +1012,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/D/xampp/htdocs/blogdiamante/helpers/get_posts.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1048,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								70,
-								70
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/get_posts.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1048,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								70,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1265,6 +1070,10 @@
 		"selected_items":
 		[
 			[
+				"main.js",
+				"templates\\puravida\\js\\main.js"
+			],
+			[
 				"respo",
 				"templates\\puravida\\stylus\\responsive.styl"
 			],
@@ -1279,10 +1088,6 @@
 			[
 				"puravidain",
 				"templates\\puravida\\index.php"
-			],
-			[
-				"main.js",
-				"templates\\puravida\\js\\main.js"
 			],
 			[
 				"puravida/",
