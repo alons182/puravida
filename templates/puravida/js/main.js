@@ -23,7 +23,10 @@
     var videoHtml = $('div.video').html();
     $('.video-link').colorbox({
             html:videoHtml,
-            height: 450
+            width: '95%',
+            height: '95%',
+            maxWidth: '700px',
+            maxHeight: '450px',
         });
 
    /* $aside_buttons.stickyfloat({
