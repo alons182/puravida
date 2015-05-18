@@ -99,7 +99,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                 <div class="column column-contact">
                     <jdoc:include type="modules" name="contact-footer" style="none" />
                     <div class="redes">
-                        <a href="#" title="Facebook" class="facebook"><i class="icon icon-facebook"></i></a>
+                        <a href="https://www.facebook.com/PuraVidaTaeching" title="Facebook" class="facebook" target="_blank"><i class="icon icon-facebook"></i></a>
                         <a href="#" title="Google Plus" class="google"><i class="icon icon-google-plus"></i></a>
                         <a href="#" title="Youtube" class="youtube"><i class="icon icon-youtube"></i></a>
                         <a href="skype:patricia.vogel63?chat" title="Skype" class="skype"><i class="icon icon-skype"></i></a>
