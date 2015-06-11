@@ -69,14 +69,21 @@ $('.buy-book-link').magnificPopup({
             type: method,
             url: url,
             data: form.serialize(),
-            success: function(){
-                var message = form.data('remote-success-message');
-                form.find('.loader').hide();
-                if(message)
+            success: function(data){
+                if(data == 'ok')
                 {
+                    var message = form.data('remote-success-message');
+                    form.find('.loader').hide();
+                    if(message)
+                    {
 
-                    $('.message').removeClass('message-error').addClass('message-success').html(message).fadeIn(300).delay(4500).fadeOut(300);
+                        $('.message').removeClass('message-error').addClass('message-success').html(message).fadeIn(300).delay(4500).fadeOut(300);
+                    }
+                }else
+                {
+                    $('.message').removeClass('message-success').addClass('message-error').html('Whoops, looks like something went wrong.').fadeIn(300).delay(4500).fadeOut(300);
                 }
+                
             },
             error:function(){
                 form.find('.loader').hide();
