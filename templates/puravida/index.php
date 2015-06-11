@@ -24,6 +24,7 @@ $itemid   = $app->input->getCmd('Itemid', '');
 // Add Stylesheets
 //$doc->addStyleSheet('templates/'.$this->template.'/css/normalize.min.css');
 $doc->addStyleSheet('templates/'.$this->template.'/css/colorbox.css');
+$doc->addStyleSheet('templates/'.$this->template.'/css/magnific-popup.css');
 $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
 
 
@@ -129,13 +130,18 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
         <div class="books2">
             <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/books2.png" alt="Books" />
         </div>
+
+        <jdoc:include type="modules" name="popup" style="none" />
+
+        
         
         <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>-->
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.cycle2.min.js"></script>
-        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.colorbox-min.js"></script>
+       <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.colorbox-min.js"></script>
          <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/stickyfloat.min.js"></script>
-       
+
+       <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.magnific-popup.min.js"></script>
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

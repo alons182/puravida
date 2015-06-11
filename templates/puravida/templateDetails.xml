@@ -37,6 +37,7 @@
 		<position>menu-footer</position>
 		<position>btn-video</position>
 		<position>btn-blog</position>
+		<position>popup</position>
 		
 	</positions>
 	
