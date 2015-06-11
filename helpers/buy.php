@@ -25,10 +25,7 @@ $cuerpo = '
 
 <strong>Name:</strong> '.$data['name'].'<br />
 <strong>Email:</strong> '.  $data['email'].'<br />
-<strong>Books:</strong> <br />'.
-	foreach ($data['book'] as $book) {
-	  $book .'<br />';
-	}.'
+<strong>Books:</strong> '.  json_encode($data['book']).'<br />
 <strong>Notes: </strong>'.  $data['comments'];
 
 
