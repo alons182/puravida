@@ -25,7 +25,10 @@ $cuerpo = '
 
 <strong>Name:</strong> '.$data['name'].'<br />
 <strong>Email:</strong> '.  $data['email'].'<br />
-<strong>Books:</strong> '.  $data['book'].'<br />
+<strong>Books:</strong> <br />'.
+	foreach ($data['book'] as $book) {
+	  $book .'<br />';
+	}.'
 <strong>Notes: </strong>'.  $data['comments'];
 
 
