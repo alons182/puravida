@@ -35,7 +35,7 @@ $emailuser= array(
 			$config->getValue( 'config.fromname' )
 			 );*/
 $emailuser = $data['email'];
-$destinatario = 'alonso@avotz.com'; //$email_yokue;
+$destinatario = 'puravidateaching@gmail.com'; //$email_yokue;
 
 
 //verificamos los datos con los métodos de JMailHelper
